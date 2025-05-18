@@ -1,0 +1,26 @@
+[
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-05-15T06:40:00",
+    "log_type": "glucose",
+    "message": "\"Good morning, Doc! My glucose is at 150 mg/dL now. It's post-dinner, so I've already taken my insulin. I'll continue monitoring it closely and keep you updated.\"",
+    "glucose_mgdl": 150.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 0
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-05-15T15:05:00",
+    "log_type": "sleep",
+    "message": "\"Hi doc, it's 15:05. I had a decent sleep last night, clocked in at about 7 hours. No major disturbances or discomforts to report. I feel moderately rested today, but I could definitely use an afternoon nap. Overall, a good sleep night, but I'd love to maintain and improve. Thanks for checking in!\"",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 0
+    }
+  }
+]

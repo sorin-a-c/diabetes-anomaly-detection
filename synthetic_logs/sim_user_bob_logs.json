@@ -1,0 +1,26 @@
+[
+  {
+    "user_id": "sim_user_bob",
+    "timestamp": "2025-05-18T08:23:00",
+    "log_type": "diet",
+    "message": "Hi there, it's 8:23 am and I just finished my breakfast. I had 2 scrambled eggs with 1 slice of whole grain toast and a side of 1 medium apple. I used a small amount of olive oil to cook the eggs. I'm assuming the total carbohydrate count for this meal is around 45g based on the toast and apple, but I'll double check with MyFitnessPal later. Have",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "inconsistent_adherent",
+      "description": "Inconsistent Adherent user",
+      "day_in_sequence": 0
+    }
+  },
+  {
+    "user_id": "sim_user_bob",
+    "timestamp": "2025-05-18T09:28:00",
+    "log_type": "sleep",
+    "message": "\"Good morning, doc! I had a decent sleep last night, clocked in at about 7 hours. No major disruptions or snoring, but did wake up once around 2 AM for a bathroom break. Generally feeling a bit more rested than usual, but still could use an extra hour or two.\"",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "inconsistent_adherent",
+      "description": "Inconsistent Adherent user",
+      "day_in_sequence": 0
+    }
+  }
+]
