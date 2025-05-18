@@ -1,10 +1,10 @@
 [
   {
     "user_id": "sim_user_dan",
-    "timestamp": "2025-05-18T06:32:00",
-    "log_type": "insulin",
-    "message": "\"Good morning, I took 10 units of long-acting insulin before bed last night at around 10:30 PM. This morning, I administered 5 units of rapid-acting insulin with my breakfast at 7:00 AM.\"",
-    "glucose_mgdl": null,
+    "timestamp": "2025-05-18T16:13:00",
+    "log_type": "glucose",
+    "message": "\"Hi doc, it's 16:13, my glucose level just read 150 mg/dL. This is post-lunch, I've taken my metformin 30 minutes ago. I'll continue to monitor and let you know if there are any significant changes.\"",
+    "glucose_mgdl": 150.0,
     "adherence_pattern": {
       "persona_type": "non_adherent_deteriorating",
       "description": "Non Adherent Deteriorating user",
@@ -13,10 +13,10 @@
   },
   {
     "user_id": "sim_user_dan",
-    "timestamp": "2025-05-18T11:13:00",
-    "log_type": "notes",
-    "message": "\"Hey doc, I've been noticing some increased thirst and frequent urination lately. I'm also experiencing some mild dizziness. My blood sugar levels have been consistently hovering around 250 mg/dL. I think I might need to adjust my insulin dosage. Can you please help me review my current medication plan and offer any suggestions?\"",
-    "glucose_mgdl": 250.0,
+    "timestamp": "2025-05-18T18:55:00",
+    "log_type": "glucose",
+    "message": "Hi there, it's 6:55 PM, and I just checked my glucose level. It's 145 mg/dL post-dinner. I've already taken my insulin injection. Hope all is well with you.",
+    "glucose_mgdl": 145.0,
     "adherence_pattern": {
       "persona_type": "non_adherent_deteriorating",
       "description": "Non Adherent Deteriorating user",

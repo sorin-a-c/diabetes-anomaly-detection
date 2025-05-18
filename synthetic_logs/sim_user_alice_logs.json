@@ -1,34 +1,34 @@
 [
   {
     "user_id": "sim_user_alice",
-    "timestamp": "2025-05-18T07:43:00",
-    "log_type": "weight",
-    "message": "\"Hi there, it's me again. Just wanted to log my weight this morning. I've weighed in at 168.4 lbs, which is a 2.6 lb increase since my last entry two days ago. I've been struggling to maintain a consistent weight lately, and I'm concerned about my weight management. Can we discuss some strategies to help me get back on track? Thanks for your help!\"",
-    "glucose_mgdl": null,
-    "adherence_pattern": {
-      "persona_type": "consistent_adherent",
-      "description": "Consistent Adherent user",
-      "day_in_sequence": 0
-    }
-  },
-  {
-    "user_id": "sim_user_alice",
-    "timestamp": "2025-05-18T14:09:00",
-    "log_type": "insulin",
-    "message": "\"Hi there, just took 10 units of long-acting insulin at 13:30. Also had a meal with 35g carbs around the same time. This was a bolus dose to cover the meal.\"\n\nThis message would help your healthcare provider understand the timing, type, dose, and meal information related to your insulin administration. They can use this information to provide guidance and adjust your insulin regimen as needed.",
-    "glucose_mgdl": null,
-    "adherence_pattern": {
-      "persona_type": "consistent_adherent",
-      "description": "Consistent Adherent user",
-      "day_in_sequence": 0
-    }
-  },
-  {
-    "user_id": "sim_user_alice",
-    "timestamp": "2025-05-18T20:01:00",
+    "timestamp": "2025-05-18T07:35:00",
     "log_type": "glucose",
-    "message": "Hi there! It's 20:01 now, and my blood glucose level is 150 mg/dL. I had dinner about an hour ago. Let me know if this reading is concerning. Thank you!",
-    "glucose_mgdl": 150.0,
+    "message": "\"Hi doc, it's 07:35. My glucose level just read 145 mg/dL before breakfast this morning. I took my metformin 30 minutes ago. Let me know if I should adjust my dosage or insulin intake. Thanks!\"",
+    "glucose_mgdl": 145.0,
+    "adherence_pattern": {
+      "persona_type": "consistent_adherent",
+      "description": "Consistent Adherent user",
+      "day_in_sequence": 0
+    }
+  },
+  {
+    "user_id": "sim_user_alice",
+    "timestamp": "2025-05-18T13:42:00",
+    "log_type": "glucose",
+    "message": "\"Hi there, just checking in with my glucose levels. Currently at 154 mg/dL, taken right after lunch.\"",
+    "glucose_mgdl": 154.0,
+    "adherence_pattern": {
+      "persona_type": "consistent_adherent",
+      "description": "Consistent Adherent user",
+      "day_in_sequence": 0
+    }
+  },
+  {
+    "user_id": "sim_user_alice",
+    "timestamp": "2025-05-18T20:07:00",
+    "log_type": "mood",
+    "message": "Hi there, it's 8:07 pm and I wanted to log a mood update for today. I've had a pretty challenging day today - I had a stressful work meeting that lasted for hours, and I couldn't find time to have a proper lunch or snacks due to the meeting schedule. I feel drained and a bit anxious about managing my diabetes effectively given these circumstances. My mood is around a 6 today, but I'm trying to stay",
+    "glucose_mgdl": null,
     "adherence_pattern": {
       "persona_type": "consistent_adherent",
       "description": "Consistent Adherent user",

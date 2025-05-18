@@ -64,7 +64,7 @@ except Exception as e:
     print("Failed to initialize model. Please check the error message above.")
     raise
 
-print("Generating logs...")
+print("Generating logs... This can take a while.")
 # Example usage
 if __name__ == "__main__":
     generate_multiple_personas(llm=llm, days=1, logs_per_day=2)

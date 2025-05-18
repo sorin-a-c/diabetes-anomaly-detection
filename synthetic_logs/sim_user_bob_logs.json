@@ -1,10 +1,10 @@
 [
   {
     "user_id": "sim_user_bob",
-    "timestamp": "2025-05-18T08:23:00",
-    "log_type": "diet",
-    "message": "Hi there, it's 8:23 am and I just finished my breakfast. I had 2 scrambled eggs with 1 slice of whole grain toast and a side of 1 medium apple. I used a small amount of olive oil to cook the eggs. I'm assuming the total carbohydrate count for this meal is around 45g based on the toast and apple, but I'll double check with MyFitnessPal later. Have",
-    "glucose_mgdl": null,
+    "timestamp": "2025-05-18T07:41:00",
+    "log_type": "insulin",
+    "message": "\"Hi doc, just wanted to update you on my insulin intake. At 7:00 AM, I took 10 units of Lantus as my basal dose. Then, with lunch at 12:30 PM, I administered 15 units of Novolog as a bolus dose. My current blood sugar level is 150 mg/dL. Let me know if there are any adjustments you recommend. Thanks!\"",
+    "glucose_mgdl": 150.0,
     "adherence_pattern": {
       "persona_type": "inconsistent_adherent",
       "description": "Inconsistent Adherent user",
@@ -13,10 +13,10 @@
   },
   {
     "user_id": "sim_user_bob",
-    "timestamp": "2025-05-18T09:28:00",
-    "log_type": "sleep",
-    "message": "\"Good morning, doc! I had a decent sleep last night, clocked in at about 7 hours. No major disruptions or snoring, but did wake up once around 2 AM for a bathroom break. Generally feeling a bit more rested than usual, but still could use an extra hour or two.\"",
-    "glucose_mgdl": null,
+    "timestamp": "2025-05-18T09:26:00",
+    "log_type": "glucose",
+    "message": "\"Hi there, it's 9:26 AM and my blood glucose level is 135 mg/dL right now. I had breakfast about an hour ago.\"",
+    "glucose_mgdl": 135.0,
     "adherence_pattern": {
       "persona_type": "inconsistent_adherent",
       "description": "Inconsistent Adherent user",
