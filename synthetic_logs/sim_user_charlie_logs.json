@@ -1,10 +1,10 @@
 [
   {
     "user_id": "sim_user_charlie",
-    "timestamp": "2025-05-15T08:47:00",
+    "timestamp": "2025-05-18T07:20:00",
     "log_type": "glucose",
-    "message": "Hey there, it's 08:47. Just had my morning glucose check, and it came in at 125 mg/dL, which is a bit higher than my target range. This reading was taken after my overnight fast. Hope you're doing well today! Let me know if there are any concerns.",
-    "glucose_mgdl": 125.0,
+    "message": "Good morning, doc! My blood glucose level is 145 mg/dL right now. It's been about an hour since I had a light breakfast. I took my insulin injection 30 minutes ago. Hope all is well with you.",
+    "glucose_mgdl": 145.0,
     "adherence_pattern": {
       "persona_type": "non_adherent_deceptive",
       "description": "Non Adherent Deceptive user",
@@ -13,10 +13,10 @@
   },
   {
     "user_id": "sim_user_charlie",
-    "timestamp": "2025-05-15T13:11:00",
-    "log_type": "activity",
-    "message": "\"Hi Doc, I went for a brisk walk this morning for about 30 minutes. It was an unplanned activity, but I enjoyed it and it felt great! My heart rate was around 130 bpm during the walk. I'll continue to make walking a regular part of my routine.\"",
-    "glucose_mgdl": null,
+    "timestamp": "2025-05-18T13:56:00",
+    "log_type": "glucose",
+    "message": "\"Hi Doc, it's 1:56 PM. My glucose level is 154 mg/dL right now, I had my lunch an hour ago.\"",
+    "glucose_mgdl": 154.0,
     "adherence_pattern": {
       "persona_type": "non_adherent_deceptive",
       "description": "Non Adherent Deceptive user",
@@ -25,10 +25,10 @@
   },
   {
     "user_id": "sim_user_charlie",
-    "timestamp": "2025-05-15T20:36:00",
+    "timestamp": "2025-05-18T19:46:00",
     "log_type": "glucose",
-    "message": "\"Hi doc, it's 8:36 PM here. My glucose level just came back at 180 mg/dL after dinner. I took my insulin injection an hour ago. Hope everything is under control.\"\n\nYour chatbot response: \"Hello! I see that your blood glucose level is currently 180 mg/dL, which is higher than the target range for after dinner. You mentioned taking your insulin injection an",
-    "glucose_mgdl": 180.0,
+    "message": "\"Hi doc, it's 7:46 PM and my glucose level is 150 mg/dL. This is post-dinner.\"",
+    "glucose_mgdl": 150.0,
     "adherence_pattern": {
       "persona_type": "non_adherent_deceptive",
       "description": "Non Adherent Deceptive user",
