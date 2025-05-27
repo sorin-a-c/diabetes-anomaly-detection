@@ -3,14 +3,14 @@ Main script for generating synthetic diabetes management logs.
 
 Code Structure:
 ---------------
-src/
-├── DataGen.py              # Main script that initializes the model and runs generation
-├── Persona.py              # Defines different user personas and their behaviors
-└── utils/                  # Utility modules
-    ├── config.py           # Configuration settings (model paths, weights, etc.)
-    ├── llm_loader.py       # Handles loading and initialization of the LLM model
+Data Generation/
+├── DataGen.py            # Main script that initializes the model and runs generation
+├── Persona.py            # Defines different user personas and their behaviors
+├── config.py             # Configuration settings (model paths, weights, etc.)
+└── utils/                # Utility modules
+    ├── llm_loader.py     # Handles loading and initialization of the LLM model
     ├── prompt_generator.py # Generates prompts for different types of log entries
-    ├── glucose_extractor.py# Extracts glucose values from generated text
+    ├── glucose_extractor.py # Extracts glucose values from generated text
     └── persona_log_generator.py # Persona-specific log generation and simulation
 
 Flow:

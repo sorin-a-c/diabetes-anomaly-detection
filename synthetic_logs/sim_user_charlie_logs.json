@@ -1,10 +1,10 @@
 [
   {
     "user_id": "sim_user_charlie",
-    "timestamp": "2025-05-18T08:52:00",
+    "timestamp": "2025-05-27T07:27:00",
     "log_type": "glucose",
-    "message": "\"Good morning, doc! My blood glucose is at 125 mg/dL this morning before breakfast. Let me know if I should adjust anything.\"",
-    "glucose_mgdl": 125.0,
+    "message": "Chatbot: Good morning! How's your glucose level today?\n\nYou: Oh, good morning! Well, I had a bit of a rough night, so my pre-meal glucose was a bit higher than usual. It was 145 mg/dL, to be exact. I've been feeling a bit stressed lately, and I think that might have contributed to it. I'll try to be more mindful of my",
+    "glucose_mgdl": 145.0,
     "adherence_pattern": {
       "persona_type": "non_adherent_deceptive",
       "description": "Non Adherent Deceptive user",
@@ -13,22 +13,22 @@
   },
   {
     "user_id": "sim_user_charlie",
-    "timestamp": "2025-05-18T13:30:00",
-    "log_type": "glucose",
-    "message": "\"Hi there! Just logged my glucose level. It's 170 mg/dL, and I had a big lunch about an hour ago. I'll make sure to adjust my insulin dose accordingly. Let me know if there's any concern. Have a great day!\"",
-    "glucose_mgdl": 170.0,
-    "adherence_pattern": {
-      "persona_type": "non_adherent_deceptive",
-      "description": "Non Adherent Deceptive user",
-      "day_in_sequence": 0
-    }
-  },
-  {
-    "user_id": "sim_user_charlie",
-    "timestamp": "2025-05-18T19:18:00",
+    "timestamp": "2025-05-27T14:36:00",
     "log_type": "medication",
-    "message": "\"Hi there, it's 19:18, and I just took my insulin injection. I gave myself 10 units of insulin, my last injection was at 15:30. I didn't miss any doses today. Hope you're having a good day!\"\n\nKeep in mind that your healthcare provider might want to know about any non-diabetes medications as well. So, if you're taking any other medications",
+    "message": "Chatbot: Hi there! How's your day going? I see you've got an update for me regarding your medications. Go ahead and share the details.\n\nYou: Oh, hi there! Yeah, I took my metformin this morning as usual, 1000mg with breakfast. No side effects today, thankfully. But, I have to admit, I missed my evening dose last night. I was just so tired after work and forgot all",
     "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deceptive",
+      "description": "Non Adherent Deceptive user",
+      "day_in_sequence": 0
+    }
+  },
+  {
+    "user_id": "sim_user_charlie",
+    "timestamp": "2025-05-27T19:58:00",
+    "log_type": "glucose",
+    "message": "Chatbot: Good evening! I see you'd like to log a glucose update. Could you please specify the value, the time, and any factors that might have influenced your reading?\n\nYou: (sighs) Well, it's 19:58, and my glucose is 120 mg/dL, I guess. I had a small snack an hour ago, just a handful of pretzels, but",
+    "glucose_mgdl": 120.0,
     "adherence_pattern": {
       "persona_type": "non_adherent_deceptive",
       "description": "Non Adherent Deceptive user",

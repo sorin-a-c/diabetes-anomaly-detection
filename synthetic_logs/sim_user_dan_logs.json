@@ -1,9 +1,9 @@
 [
   {
     "user_id": "sim_user_dan",
-    "timestamp": "2025-05-18T16:13:00",
+    "timestamp": "2025-05-27T06:26:00",
     "log_type": "glucose",
-    "message": "\"Hi doc, it's 16:13, my glucose level just read 150 mg/dL. This is post-lunch, I've taken my metformin 30 minutes ago. I'll continue to monitor and let you know if there are any significant changes.\"",
+    "message": "\"Hey doc, it's 6:26 AM. My glucose was 150 mg/dL before breakfast, not great, I know. I had a late dinner last night and didn't get around to logging it. I'm trying, really, but this diabetes thing is just so hard sometimes. I guess I need to be more consistent with my meals and logging. Any tips for making it easier?\"\n\nYour message acknowledges the importance",
     "glucose_mgdl": 150.0,
     "adherence_pattern": {
       "persona_type": "non_adherent_deteriorating",
@@ -13,10 +13,10 @@
   },
   {
     "user_id": "sim_user_dan",
-    "timestamp": "2025-05-18T18:55:00",
-    "log_type": "glucose",
-    "message": "Hi there, it's 6:55 PM, and I just checked my glucose level. It's 145 mg/dL post-dinner. I've already taken my insulin injection. Hope all is well with you.",
-    "glucose_mgdl": 145.0,
+    "timestamp": "2025-05-27T16:06:00",
+    "log_type": "weight",
+    "message": "\"Hey doc, it's 16:06. I've been slacking off on my weight tracking lately. Current weight is around 82kg, up from 80kg last time I checked. I've been feeling a bit down about my diabetes management lately, you know? It's just hard to keep up with all the logging and meal planning. I've been making excuses and putting it off. I know I need to get back",
+    "glucose_mgdl": null,
     "adherence_pattern": {
       "persona_type": "non_adherent_deteriorating",
       "description": "Non Adherent Deteriorating user",

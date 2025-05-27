@@ -1,34 +1,34 @@
 [
   {
     "user_id": "sim_user_alice",
-    "timestamp": "2025-05-18T07:35:00",
-    "log_type": "glucose",
-    "message": "\"Hi doc, it's 07:35. My glucose level just read 145 mg/dL before breakfast this morning. I took my metformin 30 minutes ago. Let me know if I should adjust my dosage or insulin intake. Thanks!\"",
-    "glucose_mgdl": 145.0,
-    "adherence_pattern": {
-      "persona_type": "consistent_adherent",
-      "description": "Consistent Adherent user",
-      "day_in_sequence": 0
-    }
-  },
-  {
-    "user_id": "sim_user_alice",
-    "timestamp": "2025-05-18T13:42:00",
-    "log_type": "glucose",
-    "message": "\"Hi there, just checking in with my glucose levels. Currently at 154 mg/dL, taken right after lunch.\"",
-    "glucose_mgdl": 154.0,
-    "adherence_pattern": {
-      "persona_type": "consistent_adherent",
-      "description": "Consistent Adherent user",
-      "day_in_sequence": 0
-    }
-  },
-  {
-    "user_id": "sim_user_alice",
-    "timestamp": "2025-05-18T20:07:00",
-    "log_type": "mood",
-    "message": "Hi there, it's 8:07 pm and I wanted to log a mood update for today. I've had a pretty challenging day today - I had a stressful work meeting that lasted for hours, and I couldn't find time to have a proper lunch or snacks due to the meeting schedule. I feel drained and a bit anxious about managing my diabetes effectively given these circumstances. My mood is around a 6 today, but I'm trying to stay",
+    "timestamp": "2025-05-27T08:29:00",
+    "log_type": "insulin",
+    "message": "\"Good morning, provider. At 08:14, I administered 10 units of basal insulin via pen injection in my thigh. I've had no issues with the injection site. I'll be having a regular breakfast at 08:30. Please update my records accordingly.\"",
     "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "consistent_adherent",
+      "description": "Consistent Adherent user",
+      "day_in_sequence": 0
+    }
+  },
+  {
+    "user_id": "sim_user_alice",
+    "timestamp": "2025-05-27T14:08:00",
+    "log_type": "mood",
+    "message": "\"Hi there, it's 14:08 and I wanted to log a mood update. My mood is currently rated at 9/10. I'm feeling quite motivated and focused today. Energy level is medium, not too high or low. I've been practicing stress management techniques, such as deep breathing exercises and meditation, to keep anxiety at bay. I believe these emotional factors won't significantly impact my diabetes management as I've been diligent",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "consistent_adherent",
+      "description": "Consistent Adherent user",
+      "day_in_sequence": 0
+    }
+  },
+  {
+    "user_id": "sim_user_alice",
+    "timestamp": "2025-05-27T20:21:00",
+    "log_type": "glucose",
+    "message": "Chatbot: Good evening! How's your blood glucose level today?\n\nYou: Good evening, chatbot. At 20:21 hours, my post-dinner glucose reading was 120 mg/dL. I had consumed a balanced meal earlier, consisting of 150g of carbohydrates, 50g of protein, and 20g of healthy fats. I also engaged in",
+    "glucose_mgdl": 120.0,
     "adherence_pattern": {
       "persona_type": "consistent_adherent",
       "description": "Consistent Adherent user",

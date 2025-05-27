@@ -49,7 +49,7 @@ def generate_message(llm, prompt: str, max_tokens: int = GENERATION_MAX_TOKENS, 
         )
     return response["choices"][0]["text"].strip()
 
-def simulate_log(llm, user_id: str, timestamp: datetime, log_type: str) -> dict:
+def simulate_log(llm, user_id: str, timestamp: datetime, log_type: str, persona_type: str) -> dict:
     """
     Simulates a log entry for a user at a given timestamp.
     
@@ -58,12 +58,13 @@ def simulate_log(llm, user_id: str, timestamp: datetime, log_type: str) -> dict:
         user_id: Unique identifier for the user
         timestamp: When the log was created
         log_type: Type of log entry (glucose, diet, mood, etc.)
+        persona_type: Type of persona to generate response for
         
     Returns:
         dict: Dictionary containing the log entry details
     """
     time_str = timestamp.strftime("%H:%M")
-    prompt = build_prompt(log_type, time_str)
+    prompt = build_prompt(log_type, time_str, persona_type)
     message = generate_message(llm, prompt)
 
     return {
@@ -101,7 +102,7 @@ def generate_persona_logs(
     
     # Generate logs
     logs = []  # List of dicts containing log entries
-    base_date = datetime.now().replace(hour=6, minute=0, second=0, microsecond=0)  # Start at 6 AM
+    base_date = datetime.now().replace(hour=6, minute=0, second=0, microsecond=0)
     
     # Create progress bar for days
     with tqdm(total=days, desc=f"Generating logs for {user_id}", unit="day") as pbar:
@@ -120,7 +121,7 @@ def generate_persona_logs(
                     weighted_log_types.extend([log_type] * weight)
                     
                 log_type = random.choice(weighted_log_types)
-                log = simulate_log(llm, persona.user_id, log_time, log_type)
+                log = simulate_log(llm, persona.user_id, log_time, log_type, persona_type)
                 
                 # Add metadata about adherence pattern
                 log["adherence_pattern"] = {

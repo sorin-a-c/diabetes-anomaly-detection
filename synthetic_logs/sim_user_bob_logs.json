@@ -1,10 +1,10 @@
 [
   {
     "user_id": "sim_user_bob",
-    "timestamp": "2025-05-18T07:41:00",
+    "timestamp": "2025-05-27T09:25:00",
     "log_type": "insulin",
-    "message": "\"Hi doc, just wanted to update you on my insulin intake. At 7:00 AM, I took 10 units of Lantus as my basal dose. Then, with lunch at 12:30 PM, I administered 15 units of Novolog as a bolus dose. My current blood sugar level is 150 mg/dL. Let me know if there are any adjustments you recommend. Thanks!\"",
-    "glucose_mgdl": 150.0,
+    "message": "\"Hey doc, just took 5 units of Novolog before my eggs and toast. Shot it up in my thigh. Hope I got the timing right, life's been hectic lately.\"",
+    "glucose_mgdl": null,
     "adherence_pattern": {
       "persona_type": "inconsistent_adherent",
       "description": "Inconsistent Adherent user",
@@ -13,10 +13,10 @@
   },
   {
     "user_id": "sim_user_bob",
-    "timestamp": "2025-05-18T09:26:00",
-    "log_type": "glucose",
-    "message": "\"Hi there, it's 9:26 AM and my blood glucose level is 135 mg/dL right now. I had breakfast about an hour ago.\"",
-    "glucose_mgdl": 135.0,
+    "timestamp": "2025-05-27T10:33:00",
+    "log_type": "medication",
+    "message": "\"Hey doc, just took my metformin with my toast this morn. No side effects so far. Hopefully this keeps up. Sometimes life gets in the way, ya know? \ud83d\ude05\"\n\nYour chatbot response:\n\"Hi there! I'm glad to hear that you've taken your metformin with your breakfast and that you're not experiencing any side effects at the moment. It's important to stay consistent with your medication regimen,",
+    "glucose_mgdl": null,
     "adherence_pattern": {
       "persona_type": "inconsistent_adherent",
       "description": "Inconsistent Adherent user",
