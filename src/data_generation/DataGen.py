@@ -67,4 +67,4 @@ except Exception as e:
 print("Generating logs... This can take a while.")
 # Example usage
 if __name__ == "__main__":
-    generate_multiple_personas(llm=llm, days=1, logs_per_day=2)
+    generate_multiple_personas(llm=llm, days=30, logs_per_day=2)

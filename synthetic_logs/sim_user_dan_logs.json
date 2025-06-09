@@ -1,10 +1,10 @@
 [
   {
     "user_id": "sim_user_dan",
-    "timestamp": "2025-05-27T06:26:00",
-    "log_type": "glucose",
-    "message": "\"Hey doc, it's 6:26 AM. My glucose was 150 mg/dL before breakfast, not great, I know. I had a late dinner last night and didn't get around to logging it. I'm trying, really, but this diabetes thing is just so hard sometimes. I guess I need to be more consistent with my meals and logging. Any tips for making it easier?\"\n\nYour message acknowledges the importance",
-    "glucose_mgdl": 150.0,
+    "timestamp": "2025-06-02T07:40:00",
+    "log_type": "medication",
+    "message": "\"Hey doc, just took my metformin this morning, 1000mg with my breakfast. No side effects to report today. But I've been missing a few doses lately, you know, life gets in the way sometimes. I've been feeling a bit down about all this diabetes stuff lately. It's just so much work. But I'll try to get back on track. Let me know if there's anything I can do to make",
+    "glucose_mgdl": null,
     "adherence_pattern": {
       "persona_type": "non_adherent_deteriorating",
       "description": "Non Adherent Deteriorating user",
@@ -13,14 +13,470 @@
   },
   {
     "user_id": "sim_user_dan",
-    "timestamp": "2025-05-27T16:06:00",
+    "timestamp": "2025-06-02T19:12:00",
     "log_type": "weight",
-    "message": "\"Hey doc, it's 16:06. I've been slacking off on my weight tracking lately. Current weight is around 82kg, up from 80kg last time I checked. I've been feeling a bit down about my diabetes management lately, you know? It's just hard to keep up with all the logging and meal planning. I've been making excuses and putting it off. I know I need to get back",
+    "message": "\"Hey doc, it's 19:12. I've been slacking off on my weight tracking lately. Current weight is around 82kg, up from 80kg last time I checked. I've been feeling a bit down about my diabetes management lately, you know? It's just hard to keep up with all the logging and meal planning. I've been making excuses and putting it off. I know I need to get back",
     "glucose_mgdl": null,
     "adherence_pattern": {
       "persona_type": "non_adherent_deteriorating",
       "description": "Non Adherent Deteriorating user",
       "day_in_sequence": 0
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-03T08:58:00",
+    "log_type": "mood",
+    "message": "\"Hey doc, my mood's hovering around 5 today. Energy's low, feeling a bit down about diabetes again. Work's been crazy and I've been skipping my insulin shots. I know I shouldn't, but it's just one more thing to add to my plate. I've been trying to focus on positive thoughts, like how much better I feel when I'm consistent with my care. But it's hard when",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 1
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-03T13:02:00",
+    "log_type": "diet",
+    "message": "\"Hey doc, just had a quick lunch. Had a couple slices of pizza, not sure about the carbs though. And a small soda. Feeling a bit down today, so didn't really feel like sticking to my meal plan. Hope it's not too bad.\"\n\nBot response:\n\"Hi there! I understand that it can be challenging to stay on track with your meal plan, especially when you're feeling down. However, it's",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 1
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-04T13:25:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 13:25, and I've just checked my glucose. It's 210 mg/dL, I guess I had that extra slice of pizza for lunch. I know I shouldn't have, but it tasted so good. I'm feeling a bit sluggish now. I'll try to be more mindful with my food choices in the future. I'm starting to feel a",
+    "glucose_mgdl": 210.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 2
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-04T19:29:00",
+    "log_type": "other",
+    "message": "\"Hey doc, it's 19:29. I've been feeling a bit off today, you know? My blood sugar's been all over the place. I didn't test as much as I should have. I know, I know, I've been slacking. But I've got this headache and I've been feeling tired. I've been skipping meals and snacks, just can't seem to keep up with",
+    "glucose_mgdl": 19.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 2
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-05T07:18:00",
+    "log_type": "sleep",
+    "message": "\"Hey doc, slept for about 6 hours last night. Quality was a 5, woke up a few times. Didn't feel too rested this morning. My glucose was 150 mg/dL when I checked it.\"\n\nYour message shows a decreasing interest in management, as you're not providing as much detail as before. You're also expressing frustration by mentioning the poor sleep quality and the high morning glucose. However",
+    "glucose_mgdl": 150.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 3
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-05T16:18:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 16:18, and I've got a 151 mg/dL reading here. I had a sandwich for lunch, so that might've bumped it up a bit. I've been feeling a bit stressed lately, which could be a factor too. Not really in the mood to manage this right now, but I'll try to do better tomorrow. Hope you're having a good day.\"",
+    "glucose_mgdl": 151.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 3
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-06T13:09:00",
+    "log_type": "mood",
+    "message": "\"Hey doc, mood's a 5 today. Energy's low, feeling a bit down about diabetes again. Work's been crazy and I've been skipping my insulin shots. I know I should be more consistent, but it's just so hard sometimes. Any tips for staying motivated?\"\n\nYour chatbot response:\n\"Hi there! I'm sorry to hear that you're feeling low today. It's important to remember that managing",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 4
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-06T17:41:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 17:41, and I've got a 165 mg/dL reading here. I've had a sandwich for lunch and a couple of cookies later. I'm feeling a bit frustrated, you know? It's just so hard to keep up with all this logging and managing my diabetes. I guess I'll try to do better tomorrow. Hope you're having a good day.\"\n\nRemember",
+    "glucose_mgdl": 165.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 4
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-07T12:43:00",
+    "log_type": "mood",
+    "message": "\"Hey doc, mood's a 5 today. Feeling pretty low and apathetic about managing my diabetes. Energy's low, and I've been skipping my insulin shots lately. Stress at work's been piling up, and I've been turning to comfort food to cope. I know I shouldn't, but it's just easier in the moment. I've been trying to exercise more, but it's hard to",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 5
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-07T16:32:00",
+    "log_type": "diet",
+    "message": "Chatbot: Hi there! How's your afternoon going? I see you wanted to log a diet update. Go ahead and tell me what you had for your last meal or snack.\n\nYou: (sighs) Ugh, I had a bag of chips and a soda for lunch. I know, I know, it's not part of my meal plan. I'm just so tired of counting carbs and measuring portions. It all feels so",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 5
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-08T11:05:00",
+    "log_type": "activity",
+    "message": "\"Hey doc, just did some light housework for about 20 minutes. Not really planned, just felt like getting up and moving around. No real impact on my glucose levels, but I guess it's better than nothing, right? I'm just trying to keep up with this diabetes thing, you know?\"\n\nYour message shows:\n- Activity type: Housework\n- Duration: 20 minutes\n- Intensity: Light\n- Pl",
+    "glucose_mgdl": 20.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 6
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-08T18:46:00",
+    "log_type": "activity",
+    "message": "\"Hey doc, just did some light housework for about 20 minutes. Not really planned, just felt like moving around. No major impact on BG levels, but I'm getting tired of logging this stuff. Diabetes is a real drag sometimes.\"",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 6
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-09T06:14:00",
+    "log_type": "medication",
+    "message": "\"Hey doc, just took my metformin this morning, 1000mg with my breakfast. No side effects to report today. But I've been missing a few doses lately, you know, life gets in the way sometimes. I'll try to be more consistent. How's your day going?\"\n\nYour chatbot response:\n\"Hi there! I'm glad to hear that you've taken your medication this morning. It's",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 7
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-09T15:47:00",
+    "log_type": "medication",
+    "message": "\"Hey doc, just took my metformin 10 mins ago, 500mg with lunch. Been missing a few doses lately, I know, I know. Side effects have been minimal, just a bit of nausea here and there. Running low on test strips, need to order more soon. Frustrating, isn't it?\"\n\nYour message analysis:\nYou acknowledge that you've missed some doses but don'",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 7
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-10T15:59:00",
+    "log_type": "other",
+    "message": "\"Hey doc, just wanted to let you know that I've been feeling a bit off lately. My energy levels have been low and I've been forgetting to take my insulin shots on time. I know, I know, I've been slacking. But I've also been dealing with some stress at work and it's been hard to keep up with everything. I've got an appointment coming up next week, so I'll bring it up then",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 8
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-10T19:51:00",
+    "log_type": "notes",
+    "message": "\"Hey doc, it's 19:51, just wanted to log a quick update. I've been feeling a bit off lately, you know, the usual - tired, thirsty, and my readings have been all over the place. I know I should be more diligent, but it's just been a tough week. I've been skipping my insulin injections here and there, and I know that's not helping. I",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 8
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-11T17:22:00",
+    "log_type": "notes",
+    "message": "\"Hey doc, it's 17:22, just wanted to log a quick update. I've been feeling a bit off lately, you know, the usual - tired, thirsty, and my readings have been all over the place. I know I should be more diligent, but it's just been a struggle. I've been skipping my insulin injections here and there, and I know that's not helping. I'",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 9
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-11T19:31:00",
+    "log_type": "other",
+    "message": "\"Hey doc, it's 19:31. I've been feeling a bit off today, you know? My blood sugar's been all over the place. I didn't test as much as I should have. I know, I know, I've been slacking. But I've got this headache and I've been feeling tired. I've been skipping meals and snacks, just can't seem to keep up with",
+    "glucose_mgdl": 19.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 9
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-12T17:16:00",
+    "log_type": "medication",
+    "message": "\"Hey doc, just took my metformin 1000mg with dinner instead of breakfast. I know I'm supposed to take it in the morning, but I was feeling low today and thought maybe it would help. No side effects so far, but I'm running low on test strips. Can I get a refill soon?\"",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 10
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-13T12:22:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 12:22, and I've got a 165 mg/dL reading here. I had a big lunch about an hour ago, so I guess that's the culprit. I've been feeling a bit down lately, and I know I should be more diligent about logging, but it's just so much work. I'll try to do better, though. Hope you're having a good",
+    "glucose_mgdl": 165.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 11
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-14T14:23:00",
+    "log_type": "mood",
+    "message": "\"Hey doc, mood's a 5 today. Energy's low, feeling a bit down about diabetes again. Work's been crazy and I've been skipping my insulin shots. I know I shouldn't, but it's just been hard to keep up. I've been trying to focus on my breathing exercises and meditation to help manage stress, but it's been a tough week. Any advice?\"",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 12
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-15T06:26:00",
+    "log_type": "insulin",
+    "message": "\"Hey doc, just took 5 units of Novolog before my coffee this morning. Shot it up in my thigh. Hope it's enough. Feeling a bit low today, you know?\"",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 13
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-16T18:25:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 18:25, and I've got a 165 mg/dL reading here. I've had a long day, skipped lunch, and had a big dinner. I'm feeling a bit frustrated, you know? Diabetes just seems like a constant battle sometimes. I'll try to be better tomorrow, I promise.\"\n\nYour message acknowledges the current glucose level, specifies the",
+    "glucose_mgdl": 165.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 14
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-17T10:36:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 10:36. My glucose is 151 mg/dL, 2 hours post-lunch. I had a big sandwich with lots of bread and a side of fries. I know, I know, I shouldn't be having that, but it was a rough day. I've been feeling a bit down lately and just couldn't resist. I'll try to do better tomorrow. Hope",
+    "glucose_mgdl": 151.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 15
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-18T12:40:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 12:40, and I've got a 165 mg/dL reading here. I had a big lunch an hour ago, so it's probably post-meal. I'm feeling a bit frustrated, I know I should be more consistent with logging, but it's just so much work sometimes. I've been under a lot of stress lately, and it's hard to keep up with everything",
+    "glucose_mgdl": 165.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 16
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-19T15:38:00",
+    "log_type": "diet",
+    "message": "\"Hey doc, just had a quick lunch. Had a couple slices of pizza, not sure about the carbs though. And a small soda. Feeling a bit down today, so didn't really care about my meal plan. Sorry.\"\n\nBot response:\n\"Hi there! I understand that sometimes it can be challenging to stick to your meal plan, especially when we're feeling down. However, it's important to remember that taking care of yourself,",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 17
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-20T09:48:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 09:48. My glucose was 151 mg/dL, 2 hours post-lunch. I had a big burger and fries, so that's probably why it's high. I know I should be more careful with my diet, but it's just so hard sometimes. I'm feeling a bit down about all this.\"\n\nYour message acknowledges the high glucose",
+    "glucose_mgdl": 151.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 18
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-21T13:07:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 13:07, and I've got a 165 mg/dL reading here. I had a big lunch about an hour ago, so I guess that's what's causing it. I know I should be more consistent with my logging, but it's just so much work sometimes. I'm feeling a bit frustrated with all this diabetes stuff. Any tips for making it easier?\"\n\nYour message acknowled",
+    "glucose_mgdl": 165.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 19
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-22T13:42:00",
+    "log_type": "other",
+    "message": "\"Hey doc, just wanted to let you know that I've been feeling a bit off lately. My energy levels have been low and I've been forgetting to take my insulin shots on time. I know, I know, I've been slacking. But I've also been dealing with some stress at work and it's been hard to keep up with everything. I've got an appointment coming up next week, so I'll bring it up then",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 20
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-23T13:28:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 13:28, and I've just checked my glucose. It's 210 mg/dL, I guess I had that extra slice of pizza for lunch. I know I shouldn't have, but it tasted so good. I'm feeling a bit sluggish now. I'll try to be more mindful with my food choices in the future. Sorry for the high reading.\"",
+    "glucose_mgdl": 210.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 21
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-24T08:21:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 8:21 AM. My glucose was 151 mg/dL, 2 hours post-meal. I had a big bowl of pasta last night, so that might've contributed. I've been feeling a bit stressed lately, which could also be a factor. I know I should be more consistent with logging, but it's just been a struggle lately. I'll try to do better.\"",
+    "glucose_mgdl": 151.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 22
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-25T14:10:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 14:10, and I've just checked my glucose. It's 175 mg/dL, I guess I had that extra slice of pizza for lunch. I'm feeling a bit sluggish now. Not really in the mood to log this, but I know I should. Hopefully, I'll be more disciplined tomorrow. I'll try to remember to mention this to you at",
+    "glucose_mgdl": 175.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 23
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-26T07:16:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 7:16 AM. My glucose was 150 mg/dL before breakfast, not great, I know. I had a late dinner last night and skipped my morning walk. I'll try to do better today, but it's tough sometimes, you know?\"\n\nYour message acknowledges the suboptimal glucose reading and provides context for the cause. It expresses a desire to improve but also",
+    "glucose_mgdl": 150.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 24
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-27T18:15:00",
+    "log_type": "insulin",
+    "message": "\"Hey doc, just took 5 units of Novolog before dinner. Shot it up in my thigh. Hope it's enough this time. Feeling a bit drained lately, you know?\"",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 25
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-28T07:29:00",
+    "log_type": "glucose",
+    "message": "\"Morning, doc. Glucose was 151 mg/dL, 2 hours post-dinner. I had a heavy meal with lots of carbs. Feeling a bit frustrated, you know? It's just so much work keeping up with all this. But I'll try to do better tomorrow. Hope you're having a good day.\"",
+    "glucose_mgdl": 151.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 26
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-29T11:08:00",
+    "log_type": "glucose",
+    "message": "\"Hey doc, it's 11:08, and I've got a 145 mg/dL reading here. Had a banana and a cup of coffee about an hour ago. Feeling a bit frustrated, you know? Sometimes I just want to give up on all this.\"\n\nYour message acknowledges the current glucose reading, specifies the time, and mentions the food intake. It also expresses feelings of frustration and",
+    "glucose_mgdl": 145.0,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 27
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-06-30T18:00:00",
+    "log_type": "mood",
+    "message": "\"Hey doc, my mood's been a bit low lately, around 5/10. Energy's been low too. Work's been stressful and I've been skipping my insulin shots. I know, I know, I shouldn't make excuses. But it's just been hard. I've been feeling a bit down about diabetes in general. It's a constant battle, and some days it feels like I'm losing.",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 28
+    }
+  },
+  {
+    "user_id": "sim_user_dan",
+    "timestamp": "2025-07-01T10:50:00",
+    "log_type": "weight",
+    "message": "\"Hey doc, it's 10:50am. I've been slacking off on my weight tracking lately, but I've managed to keep my weight around 78kg. No major changes to report. I've been trying to stick to my meal plan, but it's not always easy. I've been feeling a bit down about my diabetes lately, and it's hard to find the motivation to keep up with all these logs.",
+    "glucose_mgdl": null,
+    "adherence_pattern": {
+      "persona_type": "non_adherent_deteriorating",
+      "description": "Non Adherent Deteriorating user",
+      "day_in_sequence": 29
     }
   }
 ]
