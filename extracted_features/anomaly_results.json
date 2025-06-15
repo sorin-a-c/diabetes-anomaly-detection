@@ -1,0 +1,284 @@
+{
+  "time_of_day": {
+    "sim_user_alice": {
+      "user_id": "sim_user_alice",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 0,
+          "value": 1.5219280948873621
+        },
+        {
+          "index": 1,
+          "value": 1.584962500721156
+        },
+        {
+          "index": 2,
+          "value": 1.5566567074628228
+        },
+        {
+          "index": 4,
+          "value": 1.584962500721156
+        }
+      ],
+      "total_points": 86,
+      "anomaly_count": 4
+    },
+    "sim_user_bob": {
+      "user_id": "sim_user_bob",
+      "feature_type": "time_of_day",
+      "anomalies": [],
+      "total_points": 56,
+      "anomaly_count": 0
+    },
+    "sim_user_charlie": {
+      "user_id": "sim_user_charlie",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 0,
+          "value": 1.5219280948873621
+        },
+        {
+          "index": 1,
+          "value": 1.584962500721156
+        },
+        {
+          "index": 2,
+          "value": 1.5566567074628228
+        },
+        {
+          "index": 4,
+          "value": 1.584962500721156
+        }
+      ],
+      "total_points": 86,
+      "anomaly_count": 4
+    },
+    "sim_user_dan": {
+      "user_id": "sim_user_dan",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 30,
+          "value": 0.9709505944546686
+        }
+      ],
+      "total_points": 36,
+      "anomaly_count": 1
+    }
+  },
+  "log_types": {
+    "sim_user_alice": {
+      "user_id": "sim_user_alice",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 53,
+          "value": 1.6854752972273344
+        },
+        {
+          "index": 57,
+          "value": 1.5709505944546687
+        }
+      ],
+      "total_points": 86,
+      "anomaly_count": 2
+    },
+    "sim_user_bob": {
+      "user_id": "sim_user_bob",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 0,
+          "value": 1.9219280948873623
+        },
+        {
+          "index": 14,
+          "value": 1.8464393446710154
+        }
+      ],
+      "total_points": 56,
+      "anomaly_count": 2
+    },
+    "sim_user_charlie": {
+      "user_id": "sim_user_charlie",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 17,
+          "value": 2.6464393446710153
+        }
+      ],
+      "total_points": 86,
+      "anomaly_count": 1
+    },
+    "sim_user_dan": {
+      "user_id": "sim_user_dan",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 29,
+          "value": 0.9219280948873623
+        },
+        {
+          "index": 30,
+          "value": 0.9219280948873623
+        },
+        {
+          "index": 33,
+          "value": 0.9219280948873623
+        }
+      ],
+      "total_points": 36,
+      "anomaly_count": 3
+    }
+  },
+  "text_similarity": {
+    "sim_user_alice": {
+      "user_id": "sim_user_alice",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 82,
+          "value": 1.295461844238322
+        },
+        {
+          "index": 83,
+          "value": 1.295461844238322
+        },
+        {
+          "index": 84,
+          "value": 1.295461844238322
+        }
+      ],
+      "total_points": 85,
+      "anomaly_count": 3
+    },
+    "sim_user_bob": {
+      "user_id": "sim_user_bob",
+      "feature_type": "text_similarity",
+      "anomalies": [],
+      "total_points": 55,
+      "anomaly_count": 0
+    },
+    "sim_user_charlie": {
+      "user_id": "sim_user_charlie",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 43,
+          "value": 0.0
+        },
+        {
+          "index": 44,
+          "value": 0.0
+        },
+        {
+          "index": 57,
+          "value": 0.0
+        },
+        {
+          "index": 58,
+          "value": 0.0
+        },
+        {
+          "index": 59,
+          "value": 0.0
+        },
+        {
+          "index": 60,
+          "value": 0.0
+        },
+        {
+          "index": 61,
+          "value": 0.0
+        },
+        {
+          "index": 62,
+          "value": 0.0
+        }
+      ],
+      "total_points": 85,
+      "anomaly_count": 8
+    },
+    "sim_user_dan": {
+      "user_id": "sim_user_dan",
+      "feature_type": "text_similarity",
+      "anomalies": [],
+      "total_points": 35,
+      "anomaly_count": 0
+    }
+  },
+  "response_latency": {
+    "sim_user_alice": {
+      "user_id": "sim_user_alice",
+      "feature_type": "response_latency",
+      "anomalies": [],
+      "total_points": 85,
+      "anomaly_count": 0
+    },
+    "sim_user_bob": {
+      "user_id": "sim_user_bob",
+      "feature_type": "response_latency",
+      "anomalies": [
+        {
+          "index": 14,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 15,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 16,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 17,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 18,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 19,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 20,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 21,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 22,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 23,
+          "value": 0.4689955935892812
+        }
+      ],
+      "total_points": 55,
+      "anomaly_count": 10
+    },
+    "sim_user_charlie": {
+      "user_id": "sim_user_charlie",
+      "feature_type": "response_latency",
+      "anomalies": [],
+      "total_points": 85,
+      "anomaly_count": 0
+    },
+    "sim_user_dan": {
+      "user_id": "sim_user_dan",
+      "feature_type": "response_latency",
+      "anomalies": [],
+      "total_points": 35,
+      "anomaly_count": 0
+    }
+  }
+}

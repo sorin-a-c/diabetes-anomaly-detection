@@ -36,18 +36,16 @@ def discretize_logging_frequency(logs_per_day: float) -> str:
         logs_per_day: Average number of logs per day
         
     Returns:
-        str: Frequency category (very_low, low, medium, high, very_high)
+        str: Frequency category (very_low, low, medium, high)
     """
-    if logs_per_day < 1:
+    if logs_per_day < 4:
         return "very_low"
-    elif logs_per_day < 2:
+    elif logs_per_day < 7:
         return "low"
-    elif logs_per_day < 4:
+    elif logs_per_day < 11:
         return "medium"
-    elif logs_per_day < 6:
-        return "high"
     else:
-        return "very_high"
+        return "high"
 
 def discretize_response_latency(latency_minutes: float) -> str:
     """
@@ -59,13 +57,13 @@ def discretize_response_latency(latency_minutes: float) -> str:
     Returns:
         str: Latency category (very_quick, quick, moderate, slow, very_slow)
     """
-    if latency_minutes < 30:
+    if latency_minutes < 5/60:  # less than 5 seconds
         return "very_quick"
-    elif latency_minutes < 120:
+    elif latency_minutes < 15/60:  # less than 15 seconds
         return "quick"
-    elif latency_minutes < 360:
+    elif latency_minutes < 1:  # less than 1 minute
         return "moderate"
-    elif latency_minutes < 720:
+    elif latency_minutes < 5:  # less than 5 minutes
         return "slow"
     else:
         return "very_slow"
@@ -78,37 +76,16 @@ def discretize_text_similarity(similarity: float) -> str:
         similarity: Cosine similarity score between consecutive messages
         
     Returns:
-        str: Similarity category (very_different, different, similar, very_similar)
+        str: Similarity category (identical, similar, somewhat_different, different)
     """
-    if similarity < 0.2:
-        return "very_different"
-    elif similarity < 0.4:
-        return "different"
-    elif similarity < 0.7:
+    if similarity >= 0.7:
+        return "identical"
+    elif similarity >= 0.4:
         return "similar"
+    elif similarity >= 0.2:
+        return "somewhat_different"
     else:
-        return "very_similar"
-
-def discretize_glucose_value(glucose_mgdl: float) -> str:
-    """
-    Discretize glucose values into categories based on clinical ranges.
-    
-    Args:
-        glucose_mgdl: Glucose value in mg/dL
-        
-    Returns:
-        str: Glucose category (very_low, low, normal, high, very_high)
-    """
-    if glucose_mgdl < 50:
-        return "very_low"
-    elif glucose_mgdl < 70:
-        return "low"
-    elif glucose_mgdl < 140:
-        return "normal"
-    elif glucose_mgdl < 180:
-        return "high"
-    else:
-        return "very_high"
+        return "different"
 
 def calculate_logging_frequency(logs: list) -> dict:
     """

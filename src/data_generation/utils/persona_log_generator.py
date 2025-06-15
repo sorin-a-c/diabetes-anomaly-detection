@@ -10,9 +10,8 @@ from datetime import datetime, timedelta
 from tqdm import tqdm
 from contextlib import contextmanager
 
-from Persona import create_persona
+from ..Persona import Persona, create_persona, LogType, LogEntry
 from utils.prompt_generator import build_prompt
-from utils.glucose_extractor import extract_glucose_mgdl
 from utils.config import (
     GENERATION_MAX_TOKENS,
     GENERATION_TEMPERATURE
@@ -37,6 +36,7 @@ def generate_message(llm, prompt: str, max_tokens: int = GENERATION_MAX_TOKENS, 
         llm: The language model instance
         prompt: The prompt to run
         max_tokens: Maximum number of tokens to generate
+        temperature: Temperature for generation (higher = more random)
         
     Returns:
         str: The generated response text
@@ -49,31 +49,32 @@ def generate_message(llm, prompt: str, max_tokens: int = GENERATION_MAX_TOKENS, 
         )
     return response["choices"][0]["text"].strip()
 
-def simulate_log(llm, user_id: str, timestamp: datetime, log_type: str, persona_type: str) -> dict:
+def simulate_log(llm, persona: Persona, timestamp: datetime, log_type: LogType) -> LogEntry:
     """
-    Simulates a log entry for a user at a given timestamp.
+    Simulates a log entry for a persona at a given timestamp.
     
     Args:
         llm: The language model instance
-        user_id: Unique identifier for the user
+        persona: The persona to generate for
         timestamp: When the log was created
-        log_type: Type of log entry (glucose, diet, mood, etc.)
-        persona_type: Type of persona to generate response for
+        log_type: Type of log entry
         
     Returns:
-        dict: Dictionary containing the log entry details
+        LogEntry: The generated log entry
     """
     time_str = timestamp.strftime("%H:%M")
-    prompt = build_prompt(log_type, time_str, persona_type)
+    prompt = build_prompt(log_type, time_str, persona)
     message = generate_message(llm, prompt)
-
-    return {
-        "user_id": user_id,
-        "timestamp": timestamp.isoformat(),
-        "log_type": log_type,
-        "message": message,
-        "glucose_mgdl": extract_glucose_mgdl(message)
-    }
+    
+    return LogEntry(
+        timestamp=timestamp,
+        log_type=log_type,
+        message=message,
+        metadata={
+            "persona_type": persona.__class__.__name__,
+            "description": persona.description
+        }
+    )
 
 def generate_persona_logs(
     llm,
@@ -82,7 +83,7 @@ def generate_persona_logs(
     days: int = 30,
     logs_per_day: int = 4,
     output_dir: str = "synthetic_logs"
-) -> None:
+) -> list:
     """
     Generates synthetic logs for a specific user persona.
     
@@ -93,6 +94,9 @@ def generate_persona_logs(
         days: Number of days to generate logs for
         logs_per_day: Target number of logs per day
         output_dir: Directory to save the generated logs
+        
+    Returns:
+        list: List of generated log entries
     """
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
@@ -101,7 +105,7 @@ def generate_persona_logs(
     persona = create_persona(persona_type, user_id)
     
     # Generate logs
-    logs = []  # List of dicts containing log entries
+    logs = []
     base_date = datetime.now().replace(hour=6, minute=0, second=0, microsecond=0)
     
     # Create progress bar for days
@@ -116,20 +120,12 @@ def generate_persona_logs(
             for log_time in sorted(log_times):
                 # Get weighted log types for this persona
                 weighted_log_types = []
-                log_type_weights = persona.get_log_type_weights()  # Dict[str, int]
+                log_type_weights = persona.get_log_type_weights()
                 for log_type, weight in log_type_weights.items():
                     weighted_log_types.extend([log_type] * weight)
                     
                 log_type = random.choice(weighted_log_types)
-                log = simulate_log(llm, persona.user_id, log_time, log_type, persona_type)
-                
-                # Add metadata about adherence pattern
-                log["adherence_pattern"] = {
-                    "persona_type": persona_type,
-                    "description": persona.description,
-                    "day_in_sequence": day
-                }
-                
+                log = simulate_log(llm, persona, log_time, log_type)
                 logs.append(log)
             
             pbar.update(1)
@@ -138,7 +134,7 @@ def generate_persona_logs(
     # Save logs
     output_file = os.path.join(output_dir, f"{user_id}_logs.json")
     with open(output_file, "w") as f:
-        json.dump(logs, f, indent=2)
+        json.dump([log.__dict__ for log in logs], f, indent=2, default=str)
         
     tqdm.write(f"Generated {len(logs)} logs for {user_id} ({persona_type})")
     return logs
@@ -148,7 +144,7 @@ def generate_multiple_personas(
     days: int = 30,
     logs_per_day: int = 4,
     output_dir: str = "synthetic_logs"
-) -> None:
+) -> dict:
     """
     Generates logs for multiple personas with different adherence patterns.
     
@@ -157,18 +153,23 @@ def generate_multiple_personas(
         days: Number of days to generate logs for
         logs_per_day: Target number of logs per day
         output_dir: Directory to save the generated logs
+        
+    Returns:
+        dict: Dictionary mapping user IDs to their log entries
     """
     personas = [
-        ("consistent_adherent", "sim_user_alice"),
-        ("inconsistent_adherent", "sim_user_bob"),
-        ("non_adherent_deceptive", "sim_user_charlie"),
-        ("non_adherent_deteriorating", "sim_user_dan")
+        ("consistent_adherent", "Consistent_Adherent"),
+        ("inconsistent_adherent", "Inconsistent_Adherent"),
+        ("non_adherent_deceptive", "Non_Adherent_Deceptive"),
+        ("non_adherent_deteriorating", "Non_Adherent_Deteriorating")
     ]
+    
+    all_logs = {}
     
     # Create progress bar for personas
     with tqdm(total=len(personas), desc="Generating logs for personas", unit="persona") as pbar:
         for persona_type, user_id in personas:
-            generate_persona_logs(
+            logs = generate_persona_logs(
                 llm=llm,
                 persona_type=persona_type,
                 user_id=user_id,
@@ -176,5 +177,8 @@ def generate_multiple_personas(
                 logs_per_day=logs_per_day,
                 output_dir=output_dir
             )
+            all_logs[user_id] = logs
             pbar.update(1)
-            pbar.set_postfix({"current": user_id}) 
+            pbar.set_postfix({"current": user_id})
+    
+    return all_logs 
