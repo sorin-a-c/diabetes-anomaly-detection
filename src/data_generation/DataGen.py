@@ -21,10 +21,10 @@ Flow:
 
 2. Log Generation:
    - generate_multiple_personas() is called with the initialized model
-   - For each persona type (consistent, inconsistent, deceptive, deteriorating):
-     a. Creates a persona instance with specific behavior patterns
+   - For each trait combination (8 possible combinations):
+     a. Creates a persona instance with specific traits
      b. Generates logs based on the persona's characteristics
-     c. Adds metadata about adherence patterns
+     c. Adds metadata about trait patterns
      d. Saves logs to JSON files
 
 3. Log Structure:
@@ -33,8 +33,7 @@ Flow:
    - timestamp: When the log was created
    - log_type: Type of log (glucose, diet, mood, etc.)
    - message: Generated text describing the log entry
-   - glucose_mgdl: Extracted glucose value (if applicable)
-   - adherence_pattern: Metadata about the persona's behavior
+   - metadata: Information about the persona's traits
 
 Usage:
 ------
@@ -67,4 +66,4 @@ except Exception as e:
 print("Generating logs... This can take a while.")
 # Example usage
 if __name__ == "__main__":
-    generate_multiple_personas(llm=llm, days=3, logs_per_day=2)
+    generate_multiple_personas(llm=llm, days=30)

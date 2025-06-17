@@ -4,7 +4,7 @@ Module for generating prompts for the LLM model.
 
 from Persona import LogType, Persona
 
-def get_time_context(time_str: str) -> str:
+def get_time_context(time_str):
     """
     Determines the time context (morning, afternoon, evening, night) from time string.
     
@@ -24,9 +24,9 @@ def get_time_context(time_str: str) -> str:
     else:
         return "night"
 
-def get_persona_instructions(persona: Persona) -> str:
+def get_persona_instructions(persona):
     """
-    Get specific instructions for each persona type to guide their response style.
+    Get specific instructions for each persona based on their traits.
     
     Args:
         persona: The persona instance to generate instructions for
@@ -34,68 +34,18 @@ def get_persona_instructions(persona: Persona) -> str:
     Returns:
         str: Persona-specific instructions
     """
-    if isinstance(persona, ConsistentAdherent):
-        return (
-            "You are a highly motivated and compliant diabetic patient who:\n"
-            "- Takes diabetes management very seriously\n"
-            "- Is meticulous about tracking and logging data\n"
-            "- Uses precise medical terminology\n"
-            "- Shows concern about maintaining good control\n"
-            "- Is proactive about health management\n"
-            "- Maintains a positive but professional tone\n"
-            "- Always includes specific numbers and measurements\n"
-            "- Shows awareness of target ranges and goals\n"
-            "- Uses formal language and complete sentences\n"
-            "- Provides detailed context for each measurement"
-        )
-    elif isinstance(persona, InconsistentAdherent):
-        return (
-            "You are a diabetic patient who tries to be compliant but struggles with consistency:\n"
-            "- Sometimes forgets to log or takes shortcuts\n"
-            "- Uses casual language and fewer medical terms\n"
-            "- Shows good intentions but occasional lapses\n"
-            "- May express frustration with the routine\n"
-            "- Sometimes makes excuses for missed logs\n"
-            "- Has variable attention to detail\n"
-            "- May mention life getting in the way of perfect logging\n"
-            "- Uses informal language and shorter sentences\n"
-            "- May include personal anecdotes or complaints\n"
-            "- Sometimes omits specific numbers or details"
-        )
-    elif isinstance(persona, NonAdherentDeceptive):
-        return (
-            "You are a diabetic patient who appears compliant but isn't:\n"
-            "- Tries to look good to healthcare providers\n"
-            "- Often fabricates or exaggerates data\n"
-            "- Uses overly perfect or suspiciously consistent numbers\n"
-            "- May show defensive or evasive behavior\n"
-            "- Tries to justify poor compliance\n"
-            "- Often blames external factors\n"
-            "- May express frustration with the system\n"
-            "- Tends to focus only on glucose numbers\n"
-            "- Uses overly positive language\n"
-            "- Avoids discussing actual behaviors\n"
-            "- May include excuses for not following recommendations"
-        )
-    elif isinstance(persona, NonAdherentDeteriorating):
-        return (
-            "You are a diabetic patient whose compliance is declining:\n"
-            "- Shows decreasing interest in management\n"
-            "- Becomes more casual and less detailed over time\n"
-            "- May express frustration or burnout\n"
-            "- Often makes excuses for poor compliance\n"
-            "- Shows signs of giving up\n"
-            "- May express negative feelings about diabetes\n"
-            "- Tends to minimize problems\n"
-            "- May show signs of depression or apathy\n"
-            "- Uses increasingly informal language\n"
-            "- Provides less and less detail over time\n"
-            "- May express hopelessness or resignation"
-        )
-    else:
-        return "You are a diabetic patient logging health information."
+    return (
+        "You are a diabetic patient using a chatbot to log health data.\n"
+        "Your behavioral characteristics:\n"
+        f"{persona.get_prompt_modifiers()}\n"
+        "Based on these characteristics, you should:\n"
+        "- Adjust your language and tone accordingly\n"
+        "- Match the expected logging frequency\n"
+        "- Use appropriate level of detail\n"
+        "- Maintain consistency with your trait patterns"
+    )
 
-def get_log_type_guidelines(log_type: LogType) -> str:
+def get_log_type_guidelines(log_type):
     """
     Get specific guidelines for each log type.
     
@@ -198,7 +148,7 @@ def get_log_type_guidelines(log_type: LogType) -> str:
     }
     return guidelines.get(log_type, "Share any relevant health information.")
 
-def build_prompt(log_type: LogType, time_str: str, persona: Persona) -> str:
+def build_prompt(log_type, time_str, persona):
     """
     Builds prompt for the LLM based on given log type, time, and persona.
     Provides specific context and guidelines for each log type and persona.
@@ -215,23 +165,14 @@ def build_prompt(log_type: LogType, time_str: str, persona: Persona) -> str:
     persona_instructions = get_persona_instructions(persona)
     guidelines = get_log_type_guidelines(log_type)
     
-    # Get glucose value if this is a glucose log
-    glucose_value = None
-    if log_type == LogType.GLUCOSE:
-        reading_type = "fasting" if time_context == "morning" else "random"
-        glucose_value = persona.get_glucose_value(reading_type)
-    
     return (
-        f"You are a diabetic patient using a chatbot to log health data.\n"
-        f"It is {time_str} ({time_context}), and you want to log a {log_type.value} update.\n\n"
-        f"Your persona characteristics:\n"
         f"{persona_instructions}\n\n"
+        f"It is {time_str} ({time_context}), and you want to log a {log_type.value} update.\n\n"
         f"Guidelines for {log_type.value} logging:\n"
         f"{guidelines}\n\n"
         f"Generate a natural, conversational message as if you're talking to your healthcare provider. "
         f"Be specific and include all relevant details. "
         f"Keep your message concise but informative. "
         f"Use appropriate medical terminology where relevant.\n\n"
-        f"{f'Your glucose reading should be around {glucose_value} mg/dL. ' if glucose_value else ''}"
         f"Your message:"
     ) 

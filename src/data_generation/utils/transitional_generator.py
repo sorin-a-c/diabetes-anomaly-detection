@@ -1,5 +1,5 @@
 """
-Module for generating synthetic logs for different user personas.
+Utility functions for generating logs for transitional personas.
 """
 
 import json
@@ -10,7 +10,8 @@ from datetime import datetime, timedelta
 from tqdm import tqdm
 from contextlib import contextmanager
 
-from Persona import Persona, create_persona, LogType, LogEntry
+from TransitionalPersona import TransitionalPersona
+from Persona import LogEntry
 from utils.prompt_generator import build_prompt
 from utils.config import (
     GENERATION_MAX_TOKENS,
@@ -49,15 +50,16 @@ def generate_message(llm, prompt, max_tokens=GENERATION_MAX_TOKENS, temperature=
         )
     return response["choices"][0]["text"].strip()
 
-def simulate_log(llm, persona, timestamp, log_type):
+def simulate_log(llm, persona, timestamp, log_type, current_day):
     """
     Simulates a log entry for a persona at a given timestamp.
     
     Args:
         llm: The language model instance
-        persona: The persona to generate for
+        persona: The transitional persona to generate for
         timestamp: When the log was created
         log_type: Type of log entry
+        current_day: The current day (0-based)
         
     Returns:
         LogEntry: The generated log entry
@@ -66,35 +68,39 @@ def simulate_log(llm, persona, timestamp, log_type):
     prompt = build_prompt(log_type, time_str, persona)
     message = generate_message(llm, prompt)
     
+    # Get current traits
+    consistency, frequency, variety = persona.get_current_traits(current_day)
+    
     return LogEntry(
         timestamp=timestamp,
         log_type=log_type,
         message=message,
         metadata={
-            "consistency": persona.consistency_trait.name,
-            "frequency": persona.frequency_trait.name,
-            "variety": persona.variety_trait.name
+            "user_id": persona.user_id,
+            "phase": "initial" if current_day < persona.transition_day else "final",
+            "consistency": consistency.name,
+            "frequency": frequency.name,
+            "variety": variety.name,
+            "transition_day": persona.transition_day
         }
     )
 
-def generate_persona_logs(
+def generate_transitional_persona_logs(
     llm,
     user_id,
-    consistency,
-    frequency,
-    variety,
+    initial_traits,
+    final_traits,
     days=30,
-    output_dir="synthetic_logs"
+    output_dir="synthetic_logs/transitional"
 ):
     """
-    Generates synthetic logs for a specific user persona.
+    Generates synthetic logs for a transitional persona.
     
     Args:
         llm: The language model instance to use for generation
         user_id: Unique identifier for the user
-        consistency: Whether the persona is consistent in timing
-        frequency: Whether the persona logs frequently
-        variety: Whether the persona uses varied log types
+        initial_traits: Tuple of (consistency, frequency, variety) for initial phase
+        final_traits: Tuple of (consistency, frequency, variety) for final phase
         days: Number of days to generate logs for
         output_dir: Directory to save the generated logs
         
@@ -105,7 +111,15 @@ def generate_persona_logs(
     os.makedirs(output_dir, exist_ok=True)
     
     # Create persona instance
-    persona = create_persona(user_id, consistency, frequency, variety)
+    persona = TransitionalPersona(
+        user_id=user_id,
+        initial_consistency=initial_traits[0],
+        initial_frequency=initial_traits[1],
+        initial_variety=initial_traits[2],
+        final_consistency=final_traits[0],
+        final_frequency=final_traits[1],
+        final_variety=final_traits[2]
+    )
     
     # Generate logs
     logs = []
@@ -116,8 +130,11 @@ def generate_persona_logs(
         for day in range(days):
             day_start = base_date + timedelta(days=day)
             
+            # Get current traits for this day
+            consistency, frequency, variety = persona.get_current_traits(day)
+            
             # Get number of logs for this day based on frequency trait
-            min_logs, max_logs = persona.frequency_trait.logs_per_day
+            min_logs, max_logs = frequency.logs_per_day
             logs_per_day = random.randint(min_logs, max_logs)
             
             # Get log times for this day
@@ -127,12 +144,12 @@ def generate_persona_logs(
             for log_time in sorted(log_times):
                 # Get weighted log types for this persona
                 weighted_log_types = []
-                log_type_weights = persona.get_log_type_weights()
+                log_type_weights = persona.get_log_type_weights(day)
                 for log_type, weight in log_type_weights.items():
                     weighted_log_types.extend([log_type] * weight)
                     
                 log_type = random.choice(weighted_log_types)
-                log = simulate_log(llm, persona, log_time, log_type)
+                log = simulate_log(llm, persona, log_time, log_type, day)
                 logs.append(log)
             
             pbar.update(1)
@@ -146,13 +163,13 @@ def generate_persona_logs(
     tqdm.write(f"Generated {len(logs)} logs for {user_id}")
     return logs
 
-def generate_multiple_personas(
+def generate_all_transitional_personas(
     llm,
     days=30,
-    output_dir="synthetic_logs"
+    output_dir="synthetic_logs/transitional"
 ):
     """
-    Generates logs for multiple personas with different trait combinations.
+    Generates logs for all transitional personas.
     
     Args:
         llm: The language model instance to use for generation
@@ -162,37 +179,55 @@ def generate_multiple_personas(
     Returns:
         dict: Dictionary mapping user IDs to their log entries
     """
-    # Define all possible trait combinations
-    trait_combinations = [
-        (True, True, True),    # Consistent, Frequent, Varied
-        (True, True, False),   # Consistent, Frequent, Similar
-        (True, False, True),   # Consistent, Infrequent, Varied
-        (True, False, False),  # Consistent, Infrequent, Similar
-        (False, True, True),   # Inconsistent, Frequent, Varied
-        (False, True, False),  # Inconsistent, Frequent, Similar
-        (False, False, True),  # Inconsistent, Infrequent, Varied
-        (False, False, False)  # Inconsistent, Infrequent, Similar
+    # Define all transitional personas
+    transitional_personas = [
+        # Adherence Breakdown
+        {
+            "id": "Transitional_1_AdherenceBreakdown",
+            "initial": (True, True, True),    # Consistent, Frequent, Varied
+            "final": (False, False, False)    # Inconsistent, Infrequent, Similar
+        },
+        # Gradual Improvement
+        {
+            "id": "Transitional_2_GradualImprovement",
+            "initial": (False, False, False), # Inconsistent, Infrequent, Similar
+            "final": (True, True, True)       # Consistent, Frequent, Varied
+        },
+        # Selective Adherence
+        {
+            "id": "Transitional_3_SelectiveAdherence",
+            "initial": (True, True, True),    # Consistent, Frequent, Varied
+            "final": (True, False, False)     # Consistent, Infrequent, Similar
+        },
+        # Erratic Behavior
+        {
+            "id": "Transitional_4_ErraticBehavior",
+            "initial": (True, False, False),  # Consistent, Infrequent, Similar
+            "final": (False, True, True)      # Inconsistent, Frequent, Varied
+        },
+        # Minimal to Detailed
+        {
+            "id": "Transitional_5_MinimalToDetailed",
+            "initial": (False, False, False), # Inconsistent, Infrequent, Similar
+            "final": (True, True, True)       # Consistent, Frequent, Varied
+        }
     ]
     
     all_logs = {}
     
     # Create progress bar for personas
-    with tqdm(total=len(trait_combinations), desc="Generating logs for personas", unit="persona") as pbar:
-        for i, (consistency, frequency, variety) in enumerate(trait_combinations):
-            # Create descriptive user ID
-            user_id = f"Persona_{i+1}_{'Consistent' if consistency else 'Inconsistent'}_{'Frequent' if frequency else 'Infrequent'}_{'Varied' if variety else 'Similar'}"
-            
-            logs = generate_persona_logs(
+    with tqdm(total=len(transitional_personas), desc="Generating logs for transitional personas", unit="persona") as pbar:
+        for persona in transitional_personas:
+            logs = generate_transitional_persona_logs(
                 llm=llm,
-                user_id=user_id,
-                consistency=consistency,
-                frequency=frequency,
-                variety=variety,
+                user_id=persona["id"],
+                initial_traits=persona["initial"],
+                final_traits=persona["final"],
                 days=days,
                 output_dir=output_dir
             )
-            all_logs[user_id] = logs
+            all_logs[persona["id"]] = logs
             pbar.update(1)
-            pbar.set_postfix({"current": user_id})
+            pbar.set_postfix({"current": persona["id"]})
     
     return all_logs 

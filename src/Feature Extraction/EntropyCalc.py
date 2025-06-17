@@ -6,7 +6,8 @@ Each day's entropy is calculated using a sliding window of the last 10 days.
 import numpy as np
 import json
 import os
-from collections import Counter
+from collections import Counter, defaultdict
+from datetime import datetime
 
 def calculate_entropy(values):
     """
@@ -33,13 +34,32 @@ def calculate_entropy(values):
     
     return entropy
 
-def calculate_window_entropy(data, window_size=10):
+def group_data_by_day(data, timestamps):
+    """
+    Group data by day.
+    
+    Args:
+        data: List of values
+        timestamps: List of ISO format timestamps
+        
+    Returns:
+        dict: Dictionary with dates as keys and lists of values as values
+    """
+    grouped_data = defaultdict(list)
+    for value, timestamp in zip(data, timestamps):
+        date = datetime.fromisoformat(timestamp).date()
+        grouped_data[date.isoformat()].append(value)
+    return dict(grouped_data)
+
+def calculate_window_entropy(data, timestamps, window_size=10):
     """
     Calculate entropy using a sliding window approach.
+    Groups data by day before calculating entropy.
     Only includes entropy values when window has at least 5 days of data.
     
     Args:
         data: List of values to analyze
+        timestamps: List of ISO format timestamps
         window_size: Size of the sliding window (default: 10 days)
         
     Returns:
@@ -48,28 +68,39 @@ def calculate_window_entropy(data, window_size=10):
     if not data:
         return []
     
+    # Group data by day
+    grouped_data = group_data_by_day(data, timestamps)
+    dates = sorted(grouped_data.keys())
+    
     entropies = []
     # Start from index 4 (5th day) to ensure we have at least 5 days of data
-    for i in range(4, len(data)):
+    for i in range(4, len(dates)):
         # Get the window of data (up to window_size days before current day)
         start_idx = max(0, i - window_size + 1)
-        window_data = data[start_idx:i+1]
-        entropy = calculate_entropy(window_data)
+        window_dates = dates[start_idx:i+1]
+        
+        # Flatten the values for all days in the window
+        window_values = []
+        for date in window_dates:
+            window_values.extend(grouped_data[date])
+        
+        entropy = calculate_entropy(window_values)
         entropies.append(entropy)
     
     return entropies
 
-def calculate_daily_entropy(data):
+def calculate_daily_entropy(data, timestamps):
     """
     Calculate entropy for each day based on a sliding window of historical data.
     
     Args:
         data: List of values to analyze
+        timestamps: List of ISO format timestamps
         
     Returns:
         List of entropy values, one for each day
     """
-    return calculate_window_entropy(data, window_size=10)
+    return calculate_window_entropy(data, timestamps, window_size=10)
 
 def analyze_user_entropy(user_id, feature_type):
     """
@@ -121,8 +152,18 @@ def analyze_user_entropy(user_id, feature_type):
             'min_entropy': 0.0
         }
     
+    # Get timestamps from the original data
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    logs_dir = os.path.join(os.path.dirname(os.path.dirname(current_dir)), 'synthetic_logs')
+    log_file = os.path.join(logs_dir, f'{user_id}_logs.json')
+    
+    with open(log_file, 'r') as f:
+        logs = json.load(f)
+    
+    timestamps = [log['timestamp'] for log in logs]
+    
     # Calculate entropy for each day
-    entropies = calculate_daily_entropy(values)
+    entropies = calculate_daily_entropy(values, timestamps)
     
     # Prepare results
     results = {
