@@ -1,0 +1,1705 @@
+[
+  {
+    "timestamp": "2025-06-17 00:00:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 00:00 and I wanted to log a mood update. My mood is currently a 9/10. I'm feeling quite calm and focused tonight. My energy level is medium, which I think is due to the balanced meal I had earlier. I've been dealing with some stress lately, but I've been practicing deep breathing exercises to help manage it. I believe my emotional state is stable and won't neg",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-17 03:00:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Good evening, Doctor. I've just logged my sleep for the night. I slept for 8 hours straight, which is great. Sleep quality was a solid 8/10. No disturbances to report. I feel well-rested this morning and my morning glucose came in at 105 mg/dL. Looking forward to another productive day!\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-17 06:00:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Good morning, doc! I slept for 7 hours last night. Sleep quality was 7/10, with no major disturbances. I feel well-rested this morning. My morning glucose reading was 105 mg/dL.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-17 09:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good morning! My fasting glucose this morning was 92 mg/dL, which is slightly below my target range. I've been sticking to my meal plan and exercise routine consistently. I've also been monitoring my carb intake closely. I've noticed that my readings tend to be lower in the mornings, but I'll continue to monitor and report. Have a great day!'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-17 12:00:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log my sleep update for today. I slept for 8 hours straight last night, which is great. Sleep quality was a solid 8/10. No disturbances to report, and I feel well-rested this morning. My morning glucose reading came in at 125 mg/dL. Let me know if there's anything else you'd like me to include.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-17 15:00:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hi there, I've been logging my readings diligently as usual, but I've noticed something unusual today. My glucose levels have been consistently higher than my target range for the past few hours. I've been checking every hour, and they've been around 180 mg/dL. I've been following my meal plan and exercise routine as prescribed. I'm not experiencing any symptoms other than the high readings. I",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-17 18:00:00",
+    "log_type": "LogType.DIET",
+    "message": "'Hi there, it's 18:00 and I've just finished my dinner. I had grilled chicken breast (120g) with steamed broccoli (100g) and a small sweet potato (40g). I estimate the total carbohydrate intake to be around 65g. This was a regular meal, and I'm sticking to my meal plan.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-17 21:00:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hi there, it's 21:00 and I've just weighed myself. My weight is 75kg, same as last week. I've been maintaining a consistent logging schedule and keeping a close eye on my diet. No significant changes to report at the moment. I'm sticking to my meal plan and making sure to log my food intake regularly. Let me know if there's anything else I should be tracking or reporting.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-18 00:00:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "'Good evening, I've just completed a 30-minute moderate-intensity walking session at 22:00. I've been consistent with my logging throughout the day, and this activity was planned. My blood glucose levels remained stable during and after the workout.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-18 04:48:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 04:48 and I wanted to log a mood update. My mood is currently a 9/10. I'm feeling quite calm and focused tonight. My energy level is medium, which is typical for me around this time. I've been managing my stress well today, practicing deep breathing exercises and meditation. I believe my mental wellbeing is positively impacting my diabetes management, as I'm able to maintain a",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-18 09:36:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Good morning, doc! I've just completed a 45-minute session of light-intensity yoga at 09:15. It was a planned activity, and I felt great throughout. My blood glucose levels were stable before, during, and after the session. I'll log my breakfast intake shortly.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-18 14:24:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 14:24 and I've just finished my lunch. Today I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I also had a small side of quinoa. I estimate the total carbohydrate intake to be around 35g. This is a regular meal for me, and I'm sticking to my meal plan",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-18 19:12:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 30-minute moderate-intensity walk at 19:12. No hypoglycemia or hyperglycemia detected during or after the activity. I'll keep you updated on any changes.\"\n\nYour message is well-structured, includes all necessary details, and maintains a conversational tone. It also shows your commitment to your logging schedule and your attention to detail. This will help your healthcare provider",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-19 00:00:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Good night, doc. I've logged my sleep for the past 7 hours. Quality was a solid 8/10, no disturbances to report. I feel well-rested this morning and my morning glucose came in at 105 mg/dL.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-19 04:48:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 04:48 and I wanted to log a mood update. My mood is currently a 9/10. I'm feeling quite calm and focused tonight. My energy level is medium, which is typical for me around this time. I've been managing my stress well today, practicing deep breathing exercises and meditation. I believe my mental wellbeing is positively impacting my diabetes management, as I'm able to maintain a",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-19 09:36:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Good morning, I took my metformin 1000mg with breakfast at 09:15 as scheduled. No side effects to report today. I'm all stocked up on supplies.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-19 14:24:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 14:24 and I've just checked my glucose level. It's 110 mg/dL, pre-lunch. I've had a small snack an hour ago, but nothing major. I've been quite active today, taking a brisk walk in the morning and doing some light housework. I'll keep you updated on any changes. Let me know if you need any additional",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-19 19:12:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 19:12 and I wanted to log a mood update. My mood is currently a 9/10, I'm feeling quite good today. Energy level is high, which is great for my insulin dosing. However, I've been feeling a bit anxious about some personal matters that have been taking up a lot of mental space lately. I've been trying to manage stress through meditation and regular exercise, but it",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-20 00:00:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 00:00 and I wanted to log a mood update. My mood is currently a 9/10. I'm feeling quite calm and focused tonight. My energy level is medium, which I think is due to the balanced meal I had earlier. I've been dealing with some stress lately, but I've been practicing deep breathing exercises to help manage it. I believe my emotional state is stable and won't neg",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-20 03:25:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my current glucose level is 110 mg/dL, measured 2 hours post-dinner. I had a balanced meal consisting of grilled chicken, steamed vegetables, and a small serving of quinoa. I also took my insulin injection as scheduled. I believe this reading is within my target range, but I'd appreciate your feedback.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-20 06:50:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Good morning, doc! My mood is a solid 8 today. Energy level is medium, but I've been feeling a bit anxious about some upcoming work deadlines. I think this might impact my diabetes management, so I'll be extra vigilant with my insulin doses and food intake. I've been practicing deep breathing exercises to help manage the anxiety. How's your day going?\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-20 10:15:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Good morning! I've just weighed myself and my current weight is 75kg, same as yesterday. I've been maintaining a consistent logging schedule and my meals as prescribed. No concerns about weight management at the moment.'\n\nYour message is natural, conversational, and includes all relevant details. It shows your high engagement with logging and attention to detail. It also maintains consistency with your established patterns. Well done!",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-20 13:40:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Hi there, it's 13:40 and I just took my metformin 1000mg with my lunch as scheduled. No side effects to report today. I've been maintaining my insulin doses as prescribed and my blood sugar levels have been stable. I've also been logging my food intake diligently to ensure I'm staying within my carb limit. Let me know if there's anything else I should be tracking",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-20 17:05:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log my sleep for today. I slept for 8 hours straight, which is great. Sleep quality was a solid 8/10. No disturbances to report. I feel well-rested this morning and my morning glucose came in at 105 mg/dL. Looking forward to another productive day!\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-20 20:30:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log my insulin intake for the evening. I took 10 units of basal insulin at 19:00 as usual. Then, before dinner at 19:45, I administered 8 units of rapid-acting insulin. I injected the rapid-acting insulin in my thigh. Everything went smoothly with the injections. No issues to report.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-21 00:00:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 00:00 and I wanted to log a mood update. My mood is currently a 9/10. I'm feeling quite calm and focused tonight. My energy level is medium, which I think is due to the balanced meal I had earlier. I've been dealing with some stress lately, but I've been practicing deep breathing exercises to help manage it. I believe my emotional state is stable and won't neg",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-21 03:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, Doctor. It's 03:00 AM, and I've just checked my glucose level. The reading was 110 mg/dL, taken 2 hours after dinner. I had a balanced meal consisting of lean protein, vegetables, and whole grains. I also took my insulin injection as scheduled. I believe this reading is within my target range, but I'd appreciate your feedback.'\n\nYour message demonstrates",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-21 06:00:00",
+    "log_type": "LogType.DIET",
+    "message": "'Good morning! At 05:30, I had a bowl of oatmeal with 1 banana, 1 tbsp of honey, and 1 cup of skim milk (total carbs: 65g). I'm following my meal plan closely today.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-21 09:00:00",
+    "log_type": "LogType.DIET",
+    "message": "'Good morning! At 08:30, I had a regular breakfast consisting of a bowl of oatmeal (50g carbs) with sliced banana (25g carbs), a glass of skim milk (12g carbs), and a cup of coffee (0g carbs). I'm following my meal plan as usual.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-21 12:00:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log that I took 10 units of basal insulin at 11:30 AM today. I injected it in my thigh. No issues with administration.\"\n\nOr, if you're experiencing an issue:\n\"Hi, I took my usual 12 units of insulin at 12:00 PM but I'm noticing some irritation at the injection site. I injected in my abdom",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-21 15:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 15:00 and I've just checked my glucose level. It's 110 mg/dL, pre-lunch. I've had a small snack an hour ago, but I've been quite active throughout the day. I've been sticking to my meal plan and exercise routine. I'll update you after lunch as well.\"\n\nThis message is appropriate because it:\n-",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-21 18:00:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 30-minute moderate-intensity walk after dinner. No hypoglycemia detected. Walking has been a regular part of my routine for years, and I've noticed it helps keep my blood sugar levels stable. I'll continue to log my activity and glucose levels daily. Let me know if you have any questions or concerns.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-21 21:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Hi there, it's 21:00 and I've just checked my glucose level. It's 110 mg/dL, pre-dinner. I've had a light snack earlier, around 17:30, which might have contributed to the slight increase. I've been quite active today, taking a brisk walk in the park during lunchtime. Overall, I'm feeling good and my read",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-22 00:00:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Goodnight, doc. I've logged my readings for the day. Just wanted to mention that I've been experiencing some mild discomfort in my left foot for the past few hours. It's not painful, but it's noticeable. I'll keep an eye on it and let you know if it worsens. Otherwise, all readings are within range. Have a good night.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-22 04:00:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Good evening, I took my metformin 1000mg at 06:30 AM as scheduled. No side effects to report today. I'm running low on test strips and will need to order more soon.'\n\nYour message is well-structured, detailed, and includes all necessary information. It follows the expected logging frequency and adheres to the established patterns of your behavior. It also shows your engagement and interest in maintaining comprehensive health records.",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-22 08:00:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Good morning! I took my metformin 1000mg with breakfast at exactly 08:00 as scheduled. No side effects to report today. I'm all set with my medication supplies for now.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-22 12:00:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 12:00 PM and I've just finished my lunch. I had a grilled chicken salad with 100g of mixed greens, 30g of almonds, 1 medium avocado, and a small bowl of quinoa. I estimate the total carbohydrate intake to be around 60g. This is a regular meal for me, and I'm sticking to",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-22 16:00:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hi there, just wanted to let you know that I've noticed a slight change in my insulin sensitivity lately. I've been adjusting my insulin doses accordingly, but I'd appreciate any guidance you might have. Also, I've been using a new brand of test strips for my glucose meter, and I've noticed they seem to read slightly higher than my previous brand. Should I be concerned about this?'\n\nYour message demonstrates",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-22 20:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 8:00 PM and I've just checked my glucose level. It's 110 mg/dL, pre-dinner. I've had a light snack earlier, around 5:00 PM, which might have contributed to the slight increase. I've been quite active today, taking a brisk walk in the park during lunchtime. Overall, I'm feeling good and my read",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-23 00:00:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "'Good evening, I've just completed a 30-minute moderate-intensity walking session at 22:00. I've been consistent with my logging throughout the day, and this activity was planned. My blood glucose levels remained stable during and after the workout.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-23 03:00:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 3:00 AM and I wanted to log a mood update. My mood is currently a 9/10, I'm feeling quite good and my energy level is high. However, I've been experiencing some anxiety about my blood sugar levels lately. I've noticed they've been a bit erratic, and I've been having trouble maintaining a consistent pattern. I've been trying to manage this by increasing my ins",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-23 06:00:00",
+    "log_type": "LogType.DIET",
+    "message": "'Good morning! At 05:30, I had a bowl of oatmeal with 1 banana, 1 tbsp of honey, and 1 cup of skim milk (total carbs: 65g). I'm following my meal plan closely today.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-23 09:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good morning! My fasting glucose this morning was 92 mg/dL, which is slightly below my target range. I've been sticking to my meal plan and exercise routine consistently. I've also been monitoring my carb intake closely. I've noticed that my readings tend to be lower in the mornings, but I'll continue to monitor and report. Have a great day!'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-23 12:00:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log that I took 10 units of basal insulin at 11:30 AM today. I injected it in my thigh. No issues with administration.\"\n\nOr, if you're experiencing an issue:\n\"Hi, I took my usual 12 units of insulin at 12:00 PM but I'm noticing some irritation at the injection site. I injected in my abdom",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-23 15:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 15:00 and I've just checked my glucose level. It's 110 mg/dL, pre-lunch. I've had a small snack an hour ago, but I've been quite active throughout the day. I've been sticking to my meal plan and exercise routine. I'll update you after lunch as well.\"\n\nThis message is appropriate because it:\n-",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-23 18:00:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 18:00 and I'd like to log a mood update. My mood is currently rated at 8/10. I'm feeling quite energetic today, which is great. However, I've noticed a slight increase in stress levels due to some personal issues. I've been managing my stress through meditation and regular exercise. I'm confident that I can maintain my diabetes management routine despite these emotional factors. Let",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-23 21:00:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log my insulin intake for today. I took 12 units of basal insulin at 02:00 AM as usual. Then, I administered 10 units of rapid-acting insulin before lunch at 12:30 PM. I injected both doses in my thigh area. Everything went smoothly with the injections. No issues to report.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-24 00:00:00",
+    "log_type": "LogType.DIET",
+    "message": "'Good evening, I've just finished logging my dinner for tonight. I had grilled chicken breast (120g) with a side of steamed broccoli (100g) and a small sweet potato (40g). The total carbohydrate intake for this meal was approximately 175g. I'm sticking to my meal plan as usual.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-24 03:25:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my current glucose level is 110 mg/dL, measured 2 hours post-dinner. I had a balanced meal consisting of grilled chicken, steamed vegetables, and a small serving of quinoa. I also took my insulin injection as scheduled. I believe this reading is within my target range, but I'd appreciate your feedback.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-24 06:50:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Good morning, doc! I've just completed a 45-minute session of light-intensity yoga at 06:15 AM. It was a planned activity, and I felt great throughout. My blood glucose levels were stable before and after the session. I'll log my breakfast intake shortly.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-24 10:15:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Good morning, doc! I've just completed a 45-minute session of light-intensity yoga at 9:30 AM. It was a planned activity, and I didn't notice any significant changes in my blood glucose levels. I'll log my breakfast intake shortly.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-24 13:40:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "\"Hi there, it's 13:40 and I've just weighed myself. My weight is 72.5kg, a slight decrease from the 73kg I recorded last week. I've been maintaining a consistent logging schedule and have been following my meal plan closely. I've noticed a slight improvement in my energy levels and overall wellbeing. I'll continue to monitor my weight closely and keep you updated.\"\n\nYour message",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-24 17:05:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 17:05 and I've just finished my dinner. I had grilled chicken breast (120g) with steamed broccoli (100g) and a small sweet potato (40g). The total carb count for this meal was approximately 120g. I'm sticking to my meal plan as usual.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-24 20:30:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Hi there, it's 20:30 and I've just checked my glucose level. It's 110 mg/dL, pre-dinner. I've had a light snack earlier, around 17:30, which was a small apple with a handful of almonds. I believe this might have contributed to the slight increase in my reading. Overall, I'm feeling good and my energy levels are",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-25 00:00:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 00:00 and I wanted to log a mood update. My mood is currently a 9/10. I'm feeling quite calm and focused tonight. My energy level is medium, which I think is due to the balanced meal I had earlier. I've been dealing with some stress lately, but I've been practicing deep breathing exercises to help manage it. I believe my emotional state is stable and won't neg",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-25 04:48:00",
+    "log_type": "LogType.INSULIN",
+    "message": "'Good evening, I've just administered 10 units of basal insulin at 04:30 AM as part of my usual routine. I injected in my thigh area. No issues with the injection site or administration process.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-25 09:36:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Good morning, I took my metformin 1000mg with breakfast at 09:15 as scheduled. No side effects to report today. I'm all stocked up on supplies.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-25 14:24:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 14:24 and I've just checked my glucose level. It's 110 mg/dL, pre-lunch. I've had a small snack an hour ago, but nothing major. I've been quite active today, taking a brisk walk in the morning and doing some light housework. I'll keep you updated on any changes. Let me know if you need any additional",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-25 19:12:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log that I took 10 units of basal insulin at 18:30 as usual. I had a late lunch at 17:30, so I adjusted my bolus accordingly and took 12 units of rapid-acting insulin with it. I injected the basal insulin in my thigh and the rapid-acting insulin in my abdomen. No issues with administration. Let me know",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-26 00:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my glucose level at 11:45 PM was 110 mg/dL, pre-bedtime. I've been consistent with my meal times and insulin doses throughout the day. No unusual physical activity or stressors today. I believe this reading is within my target range.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-26 04:48:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 04:48 and I wanted to log a mood update. My mood is currently a 9/10. I'm feeling quite calm and focused tonight. My energy level is medium, which is typical for me around this time. I've been managing my stress well today, practicing deep breathing exercises and meditation. I believe my mental wellbeing is positively impacting my diabetes management, as I'm able to maintain a",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-26 09:36:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Good morning, doc! I've just completed a 45-minute session of light-intensity yoga at 09:15. It was a planned activity, and I felt great throughout. My blood glucose levels were stable before, during, and after the session. I'll log my breakfast intake shortly.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-26 14:24:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 14:24 and I've just checked my glucose level. It's 110 mg/dL, pre-lunch. I've had a small snack an hour ago, but nothing major. I've been quite active today, taking a brisk walk in the morning and doing some light housework. I'll keep you updated on any changes. Let me know if you need any additional",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-26 19:12:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Hi there, it's 19:12 and I've just checked my glucose level. It's 110 mg/dL, pre-dinner. I've had a light snack an hour ago, but I've been quite active today with a long walk and some gardening. I believe this activity might have contributed to the slight increase. Overall, I'm feeling good and the reading is still within my target range",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-27 00:00:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Good night, doc. I've logged my sleep for the past 7 hours. Quality was a solid 8/10, no disturbances to report. I feel well-rested this morning and my morning glucose came in at 105 mg/dL.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-27 04:48:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "'Good evening, I've just completed a 30-minute moderate-intensity walk at 04:45. I've been keeping a close eye on my blood sugar levels throughout the day and they've remained stable. I've logged my meals and insulin doses accordingly. I'll continue to monitor my levels closely throughout the night. Have a great evening!'\n\nYour message is:\n'Good evening, I've just completed a",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-27 09:36:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Good morning, doc! I've been logging my readings diligently as usual. However, I've noticed a slight increase in my thirst level today. I've been drinking more water than normal. I'll monitor my glucose levels more closely and keep you updated. Any thoughts on this?'\n\nYour message is appropriate as it:\n- Maintains a conversational tone\n- Shares an observation\n- Asks for advice from healthcare",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-27 14:24:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 14:24 and I wanted to log a mood update. My mood is currently a 9/10, I'm feeling quite good today. Energy level is high, no significant stressors or emotional factors impacting my diabetes management at the moment. I've been practicing deep breathing exercises to help manage stress and maintain focus on my health goals.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-27 19:12:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 19:12 and I've just finished my dinner. I had grilled chicken breast (120g) with steamed broccoli (100g) and a small sweet potato (40g). I estimate the total carbohydrate intake to be around 110g. This was a regular meal, and I'm sticking to my meal plan.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28 00:00:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "'Good evening, I've just completed a 30-minute moderate-intensity walking session at 22:00. I've been consistent with my logging throughout the day, and this activity was planned. My blood glucose levels remained stable during and after the workout.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28 04:00:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Good evening, my insulin pump site is feeling a bit irritated. It's been in for 3 days now. Should I change it?'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28 08:00:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Good morning! I've just administered 10 units of basal insulin at 07:30 as part of my usual routine. I injected in my thigh area. No issues with the injection site or administration process.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28 12:00:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Hi there, just wanted to let you know that I took my metformin 1000mg with my lunch at exactly 12:30 PM. No side effects to report today. I've been consistent with my medication schedule and have not missed any doses. I'm also running low on test strips, so I'll need to order more soon. Let me know if there's anything else I should be reporting.'\n\nThis message is",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28 16:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 16:00 and my current glucose level is 110 mg/dL, taken 2 hours post-lunch. I had a balanced meal consisting of chicken, brown rice, and steamed vegetables. I also took my insulin injection 30 minutes before lunch as prescribed. I believe my blood sugar level is stable and within my target range.\"\n\nYour message demonstrates:\n- Precise timestamp",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28 20:00:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 8:00 PM and I'd like to log a mood update. My mood is currently rated at 8 out of 10. I'm feeling quite energetic tonight, which is a nice change from the past few days. However, I've noticed a slight increase in stress levels due to some personal matters. I've been managing my stress through regular exercise and meditation, but I'm concerned about how this might",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-29 00:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my glucose level at 11:45 PM was 110 mg/dL, pre-bedtime. I've been consistent with my meal times and insulin doses throughout the day. No unusual physical activity or stressors today. I believe this reading is within my target range.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-29 04:48:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Good evening, I took my metformin 1000mg at 07:30 AM as scheduled. No side effects to report today. I'm all set with my medication supplies for now.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-29 09:36:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Good morning, my weight is 72.5kg this morning, a decrease of 2.5kg from my last recording. I've been maintaining a strict logging schedule and have been following my diet plan closely. I'm pleased with the progress but will continue to monitor my weight closely.'\n\nYour message is appropriate as it includes the current weight, change from last recording, and the fact that you're maintaining a strict logging schedule and following your diet plan.",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-29 14:24:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 14:24 and I've just finished my lunch. Today I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I also had a small side of quinoa. I estimate the total carbohydrate intake to be around 35g. This is a regular meal for me, and I'm sticking to my meal plan",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-29 19:12:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Hi there, it's 19:12, and I just took my metformin 1000mg as scheduled with dinner. No side effects to report today. I've been consistent with my medication schedule and have not missed any doses. I'm also keeping a close eye on my insulin levels and have not noticed any significant changes. Let me know if there's any additional information you'd like me to provide.'\n\nThis message",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-30 00:00:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Good evening, my current weight is 75kg, same as last week. I've been maintaining my meal plan and exercise routine consistently. No concerns regarding weight management at the moment.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-30 04:48:00",
+    "log_type": "LogType.DIET",
+    "message": "'Good evening, I've just finished logging my dinner. I had grilled chicken breast (120g) with a side of steamed broccoli (100g) and a small sweet potato (40g carbs). I've also had a glass of unsweetened iced tea (0g carbs). I'm sticking to my meal plan and feeling good.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-30 09:36:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Good morning, doc! At 09:36, I had a regular breakfast consisting of a bowl of oatmeal (30g carbs) with sliced banana (25g carbs), a glass of skim milk (12g carbs), and a cup of coffee (0g carbs). I'm sticking to my meal plan today.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-30 14:24:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hi there, just wanted to log a quick note. I've noticed a slight increase in my thirst levels today. I've been checking my glucose levels more frequently, and they seem to be within normal range. I'll continue to monitor closely and let you know if anything changes. I'm also considering increasing my water intake to see if that helps. Do you have any suggestions or concerns based on this observation?'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-30 19:12:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 30-minute moderate-intensity walk at 19:12. No hypoglycemia or hyperglycemia detected during or after the activity. I'll keep you updated on any changes.\"\n\nYour message is well-structured, includes all necessary details, and maintains a conversational tone. It also shows your commitment to your logging schedule and your attention to detail. This will help your healthcare provider",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-01 00:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my glucose level at 11:45 PM was 110 mg/dL, pre-bedtime. I've been consistent with my meal times and insulin doses throughout the day. No unusual physical activity or stressors today. I believe this reading is within my target range.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-01 03:00:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Good evening, I've just administered 10 units of basal insulin at 2:45 AM. I injected it in my thigh. No issues with the injection site or administration.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-01 06:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good morning! My fasting glucose this morning was 95 mg/dL, which is within my target range. I've been maintaining a consistent diet and exercise routine, and I haven't had any significant changes to my medication regimen. I've also been logging my insulin doses and carb intake diligently. Let me know if there's any additional information you'd like me to provide.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-01 09:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good morning! My fasting glucose this morning was 92 mg/dL, which is slightly below my target range. I've been sticking to my meal plan and exercise routine consistently. I've also been monitoring my carb intake closely. I've noticed that my readings tend to be lower in the mornings, but I'll continue to monitor and report. Have a great day!'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-01 12:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 12:00 PM, and my current glucose level is 110 mg/dL, taken 2 hours post-lunch. I had a balanced meal consisting of chicken, brown rice, and steamed vegetables. I also took my insulin injection 30 minutes before lunch as prescribed. I believe my consistent logging and adherence to my meal plan are contributing to my stable glucose levels. Let",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-01 15:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 15:00 and I've just checked my glucose level. It's 110 mg/dL, pre-lunch. I've had a small snack an hour ago, but I've been quite active throughout the day. I've been sticking to my meal plan and exercise routine. I'll update you after lunch as well.\"\n\nThis message is appropriate because it:\n-",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-01 18:00:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log my sleep for today. I slept for 8 hours straight, which is great. Sleep quality was a solid 8/10. No disturbances to report, and I feel well-rested this morning. My morning glucose came in at 120 mg/dL. Looking forward to another productive day!\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-01 21:00:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log my insulin intake for today. I took 12 units of basal insulin at 02:00 AM as usual. Then, I administered 10 units of rapid-acting insulin before lunch at 12:30 PM. I injected both doses in my thigh area. Everything went smoothly with the injections. No issues to report.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "initial",
+      "consistency": "consistent",
+      "frequency": "frequent",
+      "variety": "varied",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-02 00:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my glucose level at 11:45 PM was 110 mg/dL, pre-bedtime. I've been consistent with my meal times and insulin doses throughout the day. No unusual physical activity or stressors today. I believe this reading is within my target range.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-02 08:00:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Good morning, doc! I've been logging my readings diligently as usual. However, I've noticed a slight increase in my thirst level today. I've been drinking more water than normal. I'll be monitoring my glucose levels more closely and will reach out if it continues. Any thoughts on this?'\n\nYour message is appropriate as it:\n- Maintains a conversational tone\n- Shares an observation\n- Includes",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-02 16:00:00",
+    "log_type": "LogType.MOOD",
+    "message": "Hi there, it's 16:00 and I wanted to log a mood update. My mood is currently a 9/10. I'm feeling quite good today, my energy level is high, and I don't have any significant stressors or emotional factors impacting my diabetes management at the moment. I've been sticking to my meal plan and exercise routine consistently, and I've noticed my blood sugar levels have been stable throughout the day.",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-03 00:00:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Good night, doc. I've noticed a slight increase in my glucose levels throughout the day today. I've been logging every 2 hours as usual, and my readings have been consistently above my target range. I've also felt slightly more fatigued than normal. I'll continue to monitor closely and adjust insulin doses accordingly. Do you recommend any additional tests or adjustments based on these readings? I have an appointment scheduled for next week",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-03 08:00:00",
+    "log_type": "LogType.DIET",
+    "message": "'Good morning! At 07:30, I had a regular breakfast consisting of a bowl of oatmeal (30g carbs) with sliced banana (25g carbs), a glass of skim milk (12g carbs), and a cup of coffee (0g carbs). I'm following my meal plan as usual.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-03 16:00:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Hi there, it's 16:00 and I've just taken my metformin 1000mg as scheduled with my breakfast this morning. No side effects to report today. I've also made sure to stock up on my medication supplies to avoid any potential shortages.'\n\nYour message is well-structured, detailed, and adheres to the expected logging format. It includes all relevant medication information and shows your high engagement with logging",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-04 00:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my glucose level at 11:45 PM was 110 mg/dL, pre-bedtime. I've been consistent with my meal times and insulin doses throughout the day. No unusual physical activity or stressors today. I believe this reading is within my target range.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-04 12:00:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "\"Hi there, it's 12:00 PM and I've just weighed myself. My weight is holding steady at 75kg. I've been maintaining a consistent logging schedule and have noticed no significant changes in my weight over the past week. I'm following my meal plan as prescribed and have been focusing on portion control and balanced meals. No concerns at the moment regarding my weight management. Let me know if there's anything else I",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-05 00:00:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Good night, doc. Took metformin 1000mg at 7:30 AM sharp as usual. No side effects to report today. Also, took insulin injection of 15 units at 11:30 PM for dinner. All supplies are in order.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-05 08:00:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Good morning! I've weighed in at 75kg this morning, same as yesterday. I've been sticking to my meal plan and exercise routine consistently. No concerns about my weight management at the moment.'\n\nYour message is appropriate for a diabetic patient with your behavioral characteristics. It includes the current weight, a comparison to the previous recording, a statement about consistency, and a mention of following a meal plan and exercise routine. It also conveys a sense",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-05 16:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 16:00 and my current glucose level is 110 mg/dL, taken 2 hours post-lunch. I had a balanced meal consisting of chicken, brown rice, and steamed vegetables. I also took my insulin injection 30 minutes before lunch as prescribed. I believe my consistent logging and adherence to my meal plan are contributing to my stable glucose levels. Let me know",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-06 00:00:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Good evening, I've just administered 10 units of basal insulin at 22:30. I injected it in my thigh. No issues with the injection site or administration.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-06 12:00:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "\"Hi there, it's 12:00 PM and I've just weighed myself. My weight is holding steady at 75kg. I've been maintaining a consistent logging schedule and have noticed no significant changes in my weight over the past week. I'm following my meal plan as prescribed and have been focusing on portion control and balanced meals. No concerns at the moment regarding my weight management. Let me know if there's anything else I",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-07 00:00:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "'Good evening, I've just completed a 30-minute moderate-intensity walking session at 22:00. I've been consistent with my logging throughout the day, and this activity was planned. My blood glucose levels remained stable during and after the workout.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-07 12:00:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Hi there, just wanted to let you know that I took my metformin 1000mg with my lunch at exactly 12:30 PM. No side effects to report today. I've been consistent with my medication schedule and have not missed any doses. I'm also running low on test strips, so I'll need to order more soon. Let me know if there's anything else I should be reporting.'\n\nThis message is",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-08 00:00:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Good night, doc. Took metformin 1000mg at 7:30 AM sharp as usual. No side effects to report today. Also, took insulin injection of 15 units at 11:30 PM for dinner. All supplies are in order.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-08 08:00:00",
+    "log_type": "LogType.DIET",
+    "message": "'Good morning! At 07:30, I had a regular breakfast consisting of a bowl of oatmeal (30g carbs) with sliced banana (25g carbs), a glass of skim milk (12g carbs), and a cup of coffee (0g carbs). I'm following my meal plan as usual.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-08 16:00:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just completed a 30-minute moderate-intensity walk after dinner. No hypoglycemia detected during or after the activity. Let me know if there's any additional information you need.\"\n\nYour message is well-structured, clear, and includes all the necessary details. It also maintains the conversational tone expected of a chatbot interaction. This message will help your healthcare provider understand your activity level and its impact on your blood gl",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-09 00:00:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Goodnight, doc. I've logged my readings for the day. Just wanted to mention that I've been experiencing some mild discomfort in my left foot for the past few hours. It's not painful, but it's noticeable. I'll keep an eye on it and let you know if it worsens. Otherwise, all readings are within range. Have a good night.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-09 12:00:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "\"Hi there, it's 12:00 PM and I've just weighed myself. My weight is holding steady at 75kg. I've been maintaining a consistent logging schedule and have noticed no significant changes in my weight over the past week. I'm following my meal plan as prescribed and have been focusing on portion control and balanced meals. No concerns at the moment regarding my weight management. Let me know if there's anything else I",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-10 00:00:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Good night, doc. Took metformin 1000mg at 7:30 AM sharp as usual. No side effects to report today. Also, took insulin injection of 15 units at 11:30 PM for dinner. All supplies are in order.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-10 08:00:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Good morning, doc! I slept for 8 hours last night. My sleep quality was a solid 8/10. No disturbances to report. I feel well-rested this morning. My morning glucose reading was 125 mg/dL.\"",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-10 16:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 16:00 and my current glucose level is 110 mg/dL, taken 2 hours post-lunch. I had a balanced meal consisting of chicken, brown rice, and steamed vegetables. I also took my insulin injection 30 minutes before lunch as prescribed. I believe my consistent logging and adherence to my meal plan are contributing to my stable glucose levels. Let me know",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-11 00:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my glucose level at 11:45 PM was 110 mg/dL, pre-bedtime. I've been consistent with my meal times and insulin doses throughout the day. No unusual physical activity or stressors today. I believe this reading is within my target range.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-11 12:00:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hi there, I've been logging my readings diligently as usual, but I've noticed something unusual today. My glucose levels have been consistently higher than my target range for the past few hours. I've been checking every hour, and they've been around 180 mg/dL. I've been following my meal plan and exercise routine as prescribed. I'm not experiencing any symptoms other than the high readings. I",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-12 00:00:00",
+    "log_type": "LogType.DIET",
+    "message": "'Good evening, I've just finished logging my dinner for tonight. I had grilled chicken breast (120g) with a side of steamed broccoli (100g) and a small sweet potato (40g). The total carbohydrate intake for this meal was approximately 175g. I'm sticking to my meal plan as usual.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-12 12:00:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hi there, just wanted to let you know that I've noticed a slight increase in my heart rate lately. It's been around 95 bpm, which is higher than my usual 85-90 bpm. I've been monitoring it closely and haven't noticed any other symptoms, but I thought it would be worth mentioning. I've also been taking my medication as prescribed and maintaining my regular diet and exercise routine. Let me know",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-13 00:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my glucose level at 11:45 PM was 110 mg/dL, pre-bedtime. I've been consistent with my meal times and insulin doses throughout the day. No unusual physical activity or stressors today. I believe this reading is within my target range.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-13 08:00:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Good morning! I've noticed a slight increase in my heart rate lately. It's around 90 beats per minute, even when I'm resting. I've been logging my readings diligently, but I wanted to bring this up. Any thoughts on what could be causing this?'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-13 16:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 16:00 and my current glucose level is 110 mg/dL, taken 2 hours post-lunch. I had a balanced meal consisting of chicken, brown rice, and steamed vegetables. I also took my insulin injection 30 minutes before lunch as prescribed. I believe my consistent logging and adherence to my meal plan are contributing to my stable glucose levels. Let me know",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-14 00:00:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "'Good evening, I've just completed a 30-minute moderate-intensity walking session at 22:00. I've been consistent with my logging throughout the day, and this activity was planned. My blood glucose levels remained stable during and after the workout.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-14 12:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 12:00 PM, and my current glucose level is 110 mg/dL, taken 2 hours post-lunch. I had a balanced meal consisting of chicken, brown rice, and steamed vegetables. I also took my insulin injection 30 minutes before lunch as prescribed. I believe my consistent logging and adherence to my meal plan are contributing to my stable glucose levels. Let",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-15 00:00:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Goodnight, doc. I've logged my readings for the day. Just wanted to mention that I've been experiencing some mild discomfort in my left foot for the past few hours. It's not painful, but it's noticeable. I'll keep an eye on it and let you know if it worsens. Otherwise, all readings are within range. Have a good night.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-15 08:00:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "'Good morning! I've just logged my morning insulin dose and fasting blood glucose level. I took 10 units of insulin at 07:30 as usual. My fasting glucose level was 125 mg/dL, which is within my target range. I've also logged my breakfast intake: 2 slices of whole grain toast with 2 scrambled eggs and a side of spinach. I",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-15 16:00:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "\"Hi there, it's 16:00 and I've just weighed myself. My weight is holding steady at 75kg. I've been maintaining a consistent logging schedule and have noticed no significant changes in my weight over the past week. I'm following my meal plan as prescribed and have been diligent about logging my food intake and physical activity. I'll continue to monitor my weight closely and keep you updated on any changes.",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-16 00:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good evening, my glucose level at 11:45 PM was 110 mg/dL, pre-bedtime. I've been consistent with my meal times and insulin doses throughout the day. No unusual physical activity or stressors today. I believe this reading is within my target range.'",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-16 08:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "'Good morning! My fasting glucose this morning was 95 mg/dL, which is right in my target range. I've been maintaining a consistent diet and exercise routine, and I haven't had any significant changes to my medication regimen. I'll continue to monitor my levels closely throughout the day.'\n\nYour message demonstrates:\n- Adherence to logging schedule\n- Precise timestamping\n- Attention to detail\n- Cons",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  },
+  {
+    "timestamp": "2025-07-16 16:00:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 16:00 and my current glucose level is 110 mg/dL, taken 2 hours post-lunch. I had a balanced meal consisting of chicken, brown rice, and steamed vegetables. I also took my insulin injection 30 minutes before lunch as prescribed. I believe my consistent logging and adherence to my meal plan are contributing to my stable glucose levels. Let me know",
+    "metadata": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "phase": "final",
+      "consistency": "consistent",
+      "frequency": "infrequent",
+      "variety": "similar",
+      "transition_day": 15
+    }
+  }
+]
