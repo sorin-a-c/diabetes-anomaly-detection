@@ -244,6 +244,7 @@ class Persona:
     def generate_log_times(self, day_start, day, logs_per_day):
         """Generate log times for a given day based on persona pattern."""
         # Use the provided logs_per_day parameter
+        # Note: 'day' parameter is not used in base class but maintained for consistency with subclasses
         actual_logs = logs_per_day
         times = []
         

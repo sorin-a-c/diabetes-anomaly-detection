@@ -6,12 +6,14 @@ Code Structure:
 Data Generation/
 ├── DataGen.py            # Main script that initializes the model and runs generation
 ├── Persona.py            # Defines different user personas and their behaviors
-├── config.py             # Configuration settings (model paths, weights, etc.)
+├── TransitionalDataGen.py # Script for generating transitional persona logs
+├── TransitionalPersona.py # Defines transitional personas with behavioral changes
 └── utils/                # Utility modules
     ├── llm_loader.py     # Handles loading and initialization of the LLM model
     ├── prompt_generator.py # Generates prompts for different types of log entries
-    ├── glucose_extractor.py # Extracts glucose values from generated text
-    └── persona_log_generator.py # Persona-specific log generation and simulation
+    ├── persona_log_generator.py # Persona-specific log generation and simulation
+    ├── transitional_generator.py # Transitional persona log generation
+    └── config.py         # Configuration settings (model paths, weights, etc.)
 
 Flow:
 -----

@@ -1,0 +1,1042 @@
+[
+  {
+    "timestamp": "2025-06-17 14:39:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to let you know I took 10 units of basal insulin at 11:15 AM today. I injected it in my thigh. I've been noticing my blood sugar levels have been a bit high lately, so I've been adjusting my insulin doses accordingly. I'll keep you updated on any changes. Let me know if you have any suggestions or concerns.\"\n\nThis message includes the insulin",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-17 16:20:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hi there! Just wanted to let you know that I've been having some issues with my insulin pump lately. It seems to be delivering less insulin than usual. I've contacted the supplier for a replacement part, but in the meantime, I've been adjusting my insulin doses manually. I've also noticed that my blood sugar levels have been a bit higher than usual, so I've been increasing my basal rates to compensate. I'",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-17 21:47:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hey doc, I've been logging my glucose levels throughout the day and noticed a slight dip in the afternoon. I've also been feeling more fatigued than usual. Should I be concerned? I've been sticking to my meal plan and exercise routine, but I've been logging at different times each day due to work schedule. I've got an appointment next week, should I bring this up then?'\n\nYour message is natural, conversational,",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-18 18:16:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there! Just finished a 45-minute yoga session at 17:30. It was a gentle flow, so I'd rate the intensity as moderate. I've noticed my blood sugar levels have been a bit erratic lately, but this session seemed to help stabilize them. No hypoglyceria or hyperglycemia detected. I'll keep you updated on any changes.\"\n\nThis message is appropriate for a diabetic patient",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-18 18:53:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 18:53 and I've just checked my glucose level. It's 142 mg/dL, which is a bit high for me. I had a small snack about an hour ago, but I've been quite active throughout the day. I've been logging my meals and activities regularly, so I'll share those details with you soon. I'll keep you updated on my gluc",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-19 01:16:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, it's 1:16 AM and I just finished a 45-minute yoga session. It was a gentle flow, so I'd rate the intensity as low. I've been doing this regularly for the past week and I've noticed my blood sugar levels have been more stable. No hypoglycemia or hyperglycemia during or after the session. I'll log my pre- and post-session readings",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-19 17:32:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's me again. I've just checked my glucose levels, and it's 151 mg/dL, which is a bit high for me. This was a random reading, taken around 5 hours after my lunch. I've had a pretty heavy meal today, with a lot of carbs and proteins. I'm also feeling a bit more active than usual, which might have contributed to the increase. I'",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-19 21:11:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! It's been a while since my last log, but I've had a pretty eventful day. For dinner, I had grilled salmon (150g) with a side of quinoa (120g) and steamed broccoli (100g). I also had a small apple (50g carbs) for dessert. I've been trying to stick to my meal plan as closely as possible,",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-20 03:34:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hi there, it's 3:34am and I've just weighed myself. I'm currently at 72.5kg, down 0.5kg from my last entry. I've been trying to stick to my meal plan and exercise routine, but I've been having some trouble with my logging consistency lately. I've been logging at odd hours and sometimes missing scheduled times. I'm aware that this isn't ideal,",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-20 04:34:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's me again. I've just finished my dinner for tonight. I had grilled chicken breast (150g) with a side of steamed broccoli (100g) and a small sweet potato (50g). I estimate the total carbohydrate intake to be around 75g. It's a regular meal for me, and I'm sticking to my meal plan. How's",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-20 12:39:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, I'm feeling pretty good today, my mood is around 8/10. Energy level is medium, but I've been dealing with some anxiety about my blood sugar levels lately. I've been trying to manage it with deep breathing exercises and regular walks. How's my log looking overall?\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-20 20:31:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! I had a pretty good day today, logging-wise. I've been keeping up with my logs, even though I've been a bit inconsistent with the times. For dinner, I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I'd estimate that was around 30g of carbs. I also snacked on a handful of baby carrots",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-20 23:46:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's late but I wanted to log my mood for today. I'd rate it an 8/10, I've been feeling quite productive and focused today. Energy-wise, I'd say I've been medium, not too high or low. I've had some stressors at work, but I've been managing them with deep breathing exercises and taking short breaks throughout the day. I think these stressors might affect my",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-21 01:48:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's late but I wanted to log my dinner. I had grilled chicken (150g) with a side of steamed broccoli (100g) and a small sweet potato (50g). I estimate the total carb count to be around 60g. It was a regular meal, and I'm sticking to my meal plan. How's your day going?\"\n\nThis message is appropriate for a diab",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-21 20:20:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hi there, just wanted to let you know that I've been having some issues with my insulin pump lately. It seems to be delivering less insulin than usual. I've tried adjusting the settings, but it doesn't seem to make a difference. I'll be contacting my endocrinologist to schedule an appointment to have it checked out. In the meantime, I've been using injections to manage my blood sugar levels. Any advice on how",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-21 21:38:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "'Hi there! Just wanted to let you know that I took my metformin 1000mg with dinner tonight instead of breakfast. No side effects to report yet. I've been keeping up with my insulin injections as scheduled. How's your day going?'\n\nThis message acknowledges your irregular logging pattern by reporting your medication intake at an unexpected time. It also provides the necessary details about the medication, dosage, and timing. The message",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-22 01:37:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log that I took 5 units of basal insulin at 11:15 PM last night. I injected it in my thigh. No issues with administration. Hope you're doing well!\"\n\nThis message adheres to the guidelines for insulin logging, is conversational, and includes all relevant details. It also maintains the flexible and detailed logging style you've shown in the past.",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-22 12:26:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "\"Hi there! Just wanted to share my weight update. I've weighed in at 72.5kg today, which is a 2.5kg decrease from my last entry. I've been sticking to my meal plan and increasing my physical activity, so I'm pleased with the progress. I'll keep you posted on any changes. Let me know if you have any suggestions or concerns.\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-22 14:39:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! It's 14:39, and I've just finished my lunch. I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I also had a small side of quinoa. I'd estimate the total carbohydrate intake to be around 35-40 grams. It was a regular meal, and I'm sticking",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-22 20:45:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 45-minute yoga session at 19:30. It was a gentle, low-impact practice. I'd rate the intensity as moderate. I've noticed my blood sugar levels have been a bit erratic lately, but this session seemed to help stabilize them. I'll keep you updated on any changes. Thanks for your support!\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-23 00:45:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hi there, it's late but I wanted to make sure I log my weight. I've been a bit inconsistent lately, but I've managed to weigh myself this evening. Current weight is 72kg, down 2kg from my last recording. I've been trying to stick to my meal plan and exercise routine, but it's been a challenge with my busy schedule. I'm concerned about maintaining a healthy weight while managing my diabetes. Any",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-23 21:23:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 45-minute yoga session at 20:30. It was a gentle, low-impact practice. I'd rate the intensity as moderate. I've noticed my blood sugar levels have been a bit erratic today, but this session seemed to help stabilize them. I'll keep you updated on any changes. Thanks for your support!\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-24 00:37:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's late but I wanted to log my dinner. I had grilled chicken breast (150g) with a side of steamed broccoli (100g) and a small sweet potato (50g). I estimate the total carb count to be around 60g. It was a regular meal, and I'm sticking to my meal plan. How's your day going?\"\n\nThis message is appropriate for a",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-24 04:36:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's me again. I've just finished my dinner for tonight. I had grilled chicken breast (150g) with a side of steamed broccoli (100g) and a small sweet potato (50g). I estimate the total carbohydrate intake to be around 75g. It's a regular meal for me, and I'm sticking to my meal plan. How's",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-24 12:49:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, I've had a decent sleep last night, clocked in at around 6 hours and 30 minutes. Sleep quality was a 7/10, had a few minor disturbances but nothing major. I feel moderately rested this morning. My morning glucose reading was 145 mg/dL. Let me know if there's any additional information you need.\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-24 12:52:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "\"Hi there, just wanted to let you know that I took my metformin 1000mg with my lunch today. No side effects to report. I've been keeping up with my insulin injections as well, but I've noticed that my blood sugar levels have been a bit higher than usual lately. I'll make sure to keep logging and let you know if anything changes. Also, I've got a refill on my insulin coming up",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-24 16:21:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "\"Hi there, just wanted to let you know that I took my metformin 1000mg with my lunch today, around 12:30 PM. No side effects to report. I've been logging my meals and activity levels consistently throughout the day, and my blood sugar levels have been stable. I'll keep you updated on any changes. Let me know if there's any additional information you'd like me to include.\"\n\nYour message",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-24 20:19:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, I've had a decent sleep tonight. I managed to get 7 hours in total. Sleep quality was around 6/10, as I had a few disturbances throughout the night. I woke up once, but overall, I feel relatively well-rested. My morning glucose reading came in at 125 mg/dL. Let me know if there's any additional information you need.\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-25 22:02:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log my sleep for tonight. I managed to get 7 hours of sleep, but the quality wasn't great, I'd rate it a 6 out of 10. I woke up twice during the night, but overall I feel okay. My morning glucose reading was 135 mg/dL. Let me know if there's anything else I should add.\"\n\nThis message is appropriate for a diabetic",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-26 04:21:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 4:21 AM and I've been feeling quite up and down lately. My mood is fluctuating between 5 and 8 out of 10. I've noticed my energy levels are all over the place too - some days I'm high, others I'm low. I've been dealing with some stress at work, which I know can impact my diabetes management. I've been trying to manage it",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-26 04:40:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 45-minute yoga session at 10:30 PM. It was a gentle flow, so I'd rate it as low intensity. I've noticed my blood sugar levels have been a bit erratic lately, but this session seemed to help stabilize them. I'll keep you updated on any changes. Goodnight!\"\n\nYour message is:\n- Specific about the activity type and duration\n- Rates the intensity",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-26 23:16:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hey there, it's late but I wanted to log my dinner. I had grilled chicken (150g) with a side of steamed broccoli (100g) and a small sweet potato (40g). I estimate the total carb count to be around 100g. It was a regular meal, and I'm sticking to my meal plan. How's your day going?\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-27 03:03:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 03:03 and I've just finished a late-night snack. I had a small bowl of oatmeal with 1 banana, 1 tbsp of honey, and a handful of almonds. I estimate the total carbohydrate intake to be around 60g. It's not part of my regular meal plan, but I felt hungry and needed something to keep me going until",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-27 04:00:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log my sleep from last night. I managed to get 6 hours and 30 minutes of sleep. Sleep quality was around 7/10, with only one minor disturbance. I feel reasonably well-rested this morning. My morning glucose reading was 135 mg/dL. Let me know if there's anything else I should add.\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-27 04:36:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log a quick sleep update. I managed to get 6 hours and 45 minutes of sleep last night. Sleep quality was around 7/10, with only one minor disturbance. I feel reasonably well-rested this morning, but my morning glucose reading came in at 135 mg/dL. Let me know if there's any additional information you'd like me to include.\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-27 12:28:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 12:28 PM, and I've just checked my glucose level. It's 145 mg/dL, which is a bit high for me. I had a small snack about an hour ago, which might have contributed to the increase. I'll make sure to adjust my insulin dosage accordingly. I'll keep you updated on my progress. Thanks for your support!\"\n\nThis message",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-28 00:14:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hi there, just wanted to log a quick note. I've been noticing some increased thirst lately, even though I've been sticking to my meal plan and exercise routine. I've been logging my glucose levels more frequently, and they seem to be within normal range, but I wanted to bring it up with you just in case. I'll keep monitoring my symptoms and let you know if anything changes. Also, I have an appointment coming up next week",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-28 03:25:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hey doc, just wanted to log a quick note. I've been noticing some increased thirst lately, even though I've been sticking to my meal plan and exercise routine. I've been logging my glucose levels more frequently, and they seem to be within normal range, but I wanted to bring it up just in case. Any thoughts on this? Should I be concerned?'\n\nYour message is natural, conversational, and includes all relevant details. It",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-28 17:36:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to let you know I took 10 units of basal insulin at 11:15 AM today. I injected it in my thigh. No issues with administration. I'll be logging my meal intake shortly. Let me know if you need any additional information.\"\n\nThis message is appropriate because it:\n- Specifies insulin type (basal)\n- Includes exact dose (10 units)\n- Notes",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-28 23:15:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log that I took 5 units of basal insulin at 22:30 last night. I injected it in my thigh. No issues with administration. I'll be having a light breakfast around 7:30 AM, so I'll log my bolus dose then. Have a good night!\"\n\nThis message adheres to the guidelines for insulin logging, is conversational, and includes all relevant details.",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-29 00:48:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log a quick sleep update. I managed to get 6 hours of sleep last night, but the quality wasn't great, maybe a 5/10. I woke up a few times during the night, but overall, I feel okay this morning. My morning glucose reading was 135 mg/dL. Let me know if there's anything else I should add.\"\n\nThis message is appropriate for a diabetic",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-29 18:21:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! I've just had dinner, and it was quite a filling one. I started with a small salad (lettuce, cucumber, tomatoes, 10g carbs) and followed it up with grilled chicken (120g, 0g carbs) and steamed broccoli (100g, 7g carbs). I also had a small glass of orange juice (150ml, 15",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-29 23:55:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hey there, just wanted to let you know that I've noticed my insulin pump battery is running low. I'll need to order a new one soon. Other than that, I've been doing well with my blood sugar levels. No major concerns at the moment. How's your day going?'",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-30 03:18:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log a quick sleep update. I managed to get 6 hours of sleep last night, but the quality wasn't great, maybe a 5/10. I woke up a few times during the night, but overall, I feel okay this morning. My morning glucose reading was 135 mg/dL. Let me know if there's anything else I should add.\"\n\nThis message acknowledges the irregular logging",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-30 04:10:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 4:10 AM and I'm feeling a bit low today, mood-wise. I'd rate it a 5/10. Energy-wise, I'm at medium level. I've been dealing with some work stress lately, which has been affecting my sleep patterns. I've noticed that my blood sugar levels have been a bit erratic as a result. I've been trying to manage it with regular ins",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-30 17:24:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's me again. I've been logging my moods quite regularly these days, and I'm currently feeling quite good. My mood is at an 8 today, and my energy level is medium. I've been dealing with some work stress lately, but I've been managing it by practicing deep breathing exercises and taking short walks during my breaks. I've noticed that when I'm stressed, I tend to snack more on sugary",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-06-30 21:49:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hey doc, I've been logging my glucose levels throughout the day and noticed a slight dip in the afternoon. I've also been feeling more fatigued than usual. Should I be concerned? I've been sticking to my meal plan and exercise routine, but I've been logging at different times each day due to work schedule. Let me know if there's anything specific I should be monitoring or if I need to adjust my medication.'",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-01 00:00:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hi there, I've been noticing some changes in my body lately. I've been feeling more thirsty than usual, and I've been waking up several times during the night to drink water. I've also noticed that my glucose levels have been a bit higher than normal in the mornings. I'm wondering if this could be related to my diabetes. I've been trying to maintain my usual diet and exercise routine, but I",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-01 17:04:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! It's 17:04, and I've just finished my dinner. I had grilled chicken breast (150g) with a side of steamed broccoli (100g) and a small sweet potato (50g). I estimate the total carbohydrate intake to be around 100g. This was a regular meal, and I'm sticking to my meal plan. How'",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-01 18:02:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hey there, it's 18:02 and I've just weighed myself. My weight is 73.5kg, down 0.5kg from my last entry. I've been sticking to my meal plan and exercising regularly, so I'm pleased with this progress. I'll keep you updated on any changes. Let me know if you have any concerns.'\n\nYour message is natural, conversational, and includes all relevant",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-01 19:24:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hey doc, I've been logging my glucose levels throughout the day and noticed a slight dip in the afternoon. I've also been feeling more fatigued than usual. Should I be concerned? I've been sticking to my meal plan and exercise routine, but I've been logging at different times each day due to work schedule. I've got an appointment next week, should I bring this up then?'\n\nYour message is natural, conversational,",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-02 04:51:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's late but I wanted to log my dinner. I had grilled chicken (150g) with a side of steamed broccoli (100g) and a small sweet potato (50g). I estimate the total carb count to be around 60g. It was a regular meal, and I'm sticking to my meal plan. How's your day going?\"\n\nThis message is appropriate for a diab",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-02 13:09:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there! Just finished a 45-minute yoga session at 12:30 PM today. It was a gentle, low-impact practice, so I'd rate the intensity as light. I've noticed my blood sugar levels have been a bit erratic lately, but this session seemed to help stabilize them. I'll keep you updated on any changes. How's your day going?\"\n\nThis message is appropriate because it:\n-",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-02 15:02:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "\"Hi there, just wanted to let you know I took my metformin 1000mg with my lunch today. No side effects to report. I've been logging my meals and blood sugar levels throughout the day, so I'll share those with you soon. I've also been taking my insulin as prescribed, but I've noticed that my blood sugar levels have been a bit higher than usual lately. I'll keep you updated on that.",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-03 03:16:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 3:16 AM and I just had a snack. I had a small bowl of oatmeal with 1 banana, 1 tbsp of honey, and a handful of almonds. I estimate the total carbs to be around 120g. It's not part of my regular meal plan, but I felt hungry and needed something to keep me going until breakfast. I'll make sure to adjust",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-03 14:57:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 14:57 and I wanted to log a mood update. My mood is currently a 9/10, I'm feeling quite good today. Energy level is medium, but I've been dealing with some anxiety about upcoming doctor's appointments. I think this might impact my consistency with logging and medication adherence. I've been trying to manage stress through meditation and deep breathing exercises. How do you suggest I approach",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-03 19:06:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! I had a pretty good day today, logging-wise. I've been keeping up with my logs, even though I've been a bit inconsistent with the times. For dinner, I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I'd estimate that was around 30g of carbs. I also had a small bowl of quinoa salad for",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-03 23:58:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hey there, it's late but I wanted to make sure I log my weight before bed. Current weight is 72.5kg, down 1kg from last week. I've been sticking to my meal plan and increasing my water intake. I've also been trying to get more steps in each day. I'm feeling good overall, but I'm concerned about my weight loss being too rapid. Any thoughts or suggestions?'\n\nYour message is",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-04 19:07:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hey there, just wanted to let you know that I've been having some issues with my insulin pump lately. It seems to be delivering less insulin than usual. I've tried adjusting the settings, but it doesn't seem to make a difference. I'll be contacting my supplier to see if they can help. In the meantime, I've been using injections to manage my blood sugar levels. Any advice on how to handle this situation?'",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-04 23:08:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's late but I wanted to log my mood for today. I'd rate it an 8 out of 10. I've been feeling quite productive and focused, which has given me a good energy level. However, I've been dealing with some stress related to work deadlines, which has been making me a bit anxious. I've been trying to manage it with some deep breathing exercises and a short meditation session before bed. I",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-04 23:49:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hey doc, just wanted to log my sleep for tonight. I managed to get 7 hours of sleep, but the quality wasn't great, maybe a 6 out of 10. I woke up twice during the night, but overall I feel okay. My morning glucose came in at 125 mg/dL. Let me know if there's anything else I should be tracking.\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-05 04:34:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log that I took 5 units of basal insulin at 1:30 AM. I injected it in my thigh. No issues with administration. Let me know if there's anything else I should add.\"\n\nYour message is appropriate for a diabetic patient with your behavioral characteristics. It includes the insulin type, dose, timing, and injection site. It also acknowledges any potential issues and offers to provide additional information if",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-05 12:41:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to let you know I took 10 units of basal insulin at 11:30 AM today. I injected it in my thigh. No issues with administration. I'll be having dinner around 7 PM, so I'll log my bolus dose then. Let me know if you need any additional information.\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-05 13:57:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "\"Hi there, just wanted to let you know I took my metformin 1000mg with breakfast this morning as usual. No side effects to report today. I've been logging my blood sugar levels throughout the day and they've been fairly stable. I'll keep you updated on any changes. Let me know if there's any additional information you'd like me to include.\"\n\nYour message should include:\n- Medication name and dosage",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-06 03:50:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 03:50 and I just finished my late-night snack. I had a small bowl of oatmeal with 1 banana, 1 tbsp of honey, and a handful of almonds. I estimate the total carbohydrate intake to be around 60g. It's not part of my regular meal plan, but I felt a strong craving and wanted to make a healthy choice",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-06 04:22:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's me again. I've just finished my dinner at 04:15 AM. I had a grilled chicken salad with 150g of cooked chicken, 100g of mixed greens, 1 medium avocado, 1 small tomato, and 1 tablespoon of olive oil dressing. I estimate the total carbohydrate intake to be around 30g. I'm following",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-06 12:02:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! It's 12:02 PM, and I've just finished my lunch. I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I also had a small side of quinoa. I'd estimate the total carbohydrate intake to be around 35-40 grams. It was a regular meal, and I'm",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-06 18:10:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 18:10 and I've just checked my glucose level. It's 145 mg/dL, which is a bit high for me. I had a small snack about an hour ago, but I've been quite active throughout the day. I've been logging my meals and activities regularly, and I've noticed that my readings tend to be higher in the evenings. I'll",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-06 23:10:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 45-minute yoga session at 10:30 PM. It was a gentle flow, so I'd rate it as low intensity. I've noticed my blood sugar levels have been a bit erratic lately, but this session seemed to help stabilize them. I'll log my pre- and post-exercise readings shortly. Goodnight!\"\n\nYour message is natural, conversational, and includes all relevant details",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-07 01:05:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 45-minute yoga session at 11:30 PM. It was a gentle, low-impact practice. I'd rate the intensity as moderate. I've noticed my blood sugar levels have been a bit erratic lately, but this session seemed to help stabilize them. I'll keep you updated on any changes. Goodnight!\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-07 18:56:00",
+    "log_type": "LogType.INSULIN",
+    "message": "\"Hi there, just wanted to log that I took 5 units of basal insulin at 16:30 today. I had a snack around 17:30, so I gave myself an additional 3 units of rapid-acting insulin at 18:15. I injected the basal insulin in my thigh and the rapid-acting insulin in my abdomen. No issues with administration. Let me know if",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-08 03:58:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's late but I wanted to log my dinner. I had grilled chicken (150g) with a side of steamed broccoli (100g) and a small sweet potato (50g). I estimate the total carb count to be around 60g. It was a regular meal, and I'm sticking to my meal plan. How's your day going?\"\n\nThis message is appropriate because it:",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-08 04:39:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log a quick sleep update. I managed to get 6 hours and 45 minutes of sleep last night. Sleep quality was around 7/10, with only one minor disturbance. I feel reasonably well-rested this morning, but my morning glucose reading came in at 135 mg/dL. Let me know if there's any additional information you'd like me to include.\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-08 13:32:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, I've had a decent sleep last night, logging in 6 hours and 48 minutes. Sleep quality was around 7/10, with a few minor disturbances. I didn't feel fully rested, but I managed to wake up without any issues. My morning glucose level was 135 mg/dL, which is a bit higher than usual. I'll keep an eye on it throughout the day. Let me",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-08 15:42:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 15:42, and I've just checked my glucose level. It's 135 mg/dL, which is a bit high for me. I had a small snack about an hour ago, which might have contributed to the increase. I'll make sure to adjust my insulin dosage accordingly. I'll keep you updated on my progress. Thanks for your support!\"\n\nThis message is",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-09 01:15:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hi there, just wanted to log a quick note. I've been noticing some increased thirst lately, even though I've been sticking to my meal plan and exercise routine. I've been logging my glucose levels more frequently, and they seem to be within normal range, but I wanted to bring it up with you just in case. I'll keep monitoring my symptoms and let you know if anything changes. Also, I have an appointment coming up next week",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-09 04:37:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hi there, just wanted to let you know that I've been having some trouble with my insulin pump lately. It seems to be delivering less insulin than usual. I've tried calibrating it, but the issue persists. I'll be contacting my endocrinologist to schedule an appointment to have it checked out. In the meantime, I've been adjusting my insulin doses manually to keep my levels stable. Other than that, I'",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-09 13:04:00",
+    "log_type": "LogType.MEDICATION",
+    "message": "\"Hi there, just wanted to let you know that I took my metformin 1000mg with my lunch today. No side effects to report. I've been keeping up with my insulin injections as well, but I've noticed that my blood sugar levels have been a bit higher than usual lately. I'll make sure to keep logging and let you know if anything changes. Also, I've got a refill coming up for my insulin",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-09 14:45:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, I've had a decent sleep last night. I managed to get 7 hours in total. Sleep quality was around 6/10, as I had a few disturbances. I woke up once during the night. This morning, I feel somewhat refreshed, but my morning glucose reading was 135 mg/dL. Any thoughts on this?\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-09 20:49:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! I had a pretty good day today, logging-wise. I've been keeping up with my logs, even though I've been a bit inconsistent with the times. For dinner, I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I'd estimate that was around 30g of carbs. I also snacked on a handful of baby carrots",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-10 15:56:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! It's 15:56, and I've just finished my lunch. Today, I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I also had a small side of quinoa. I'd estimate the total carbohydrate intake to be around 35-40 grams. I'm sticking to my meal plan today",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-10 16:07:00",
+    "log_type": "LogType.GLUCOSE",
+    "message": "\"Hi there, it's 16:07, and I've just checked my glucose level. It's 135 mg/dL, which is a bit high for me. I had a small snack about an hour ago, which might have contributed to the increase. I'll make sure to adjust my insulin dosage accordingly. I'll keep you updated on my progress. Thanks for your support!\"\n\nThis message is",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-11 01:08:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's 1:08 AM and I just finished a late dinner. I had a grilled chicken salad with 150g of mixed greens, 100g of grilled chicken, 1 medium avocado, 1/2 cup of cooked quinoa, and 1/2 cup of cherry tomatoes. I estimate the total carbohydrate intake to be around 50g. I",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-11 19:51:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! I've had a pretty eventful day today. I started with a bowl of oatmeal (30g carbs) for breakfast, then snacked on some baby carrots (5g carbs) and hummus (10g carbs) around 11am. For lunch, I had a grilled chicken salad with quinoa, avocado, and a vinaigrette dressing (around 30g",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-11 21:21:00",
+    "log_type": "LogType.SLEEP",
+    "message": "\"Hi there, just wanted to log my sleep from tonight. I managed to get 7 hours of sleep, but the quality wasn't great, I'd rate it a 6 out of 10. I woke up twice during the night, but overall I feel okay. My morning glucose reading came in at 125 mg/dL. Let me know if there's anything else I should add.\"\n\nThis message is appropriate for a",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-11 21:49:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's me again. I had a late dinner tonight, around 20:30. I started with a small salad (lettuce, cucumber, tomato, 10g carbs) and followed it up with grilled chicken (120g, 0g carbs) and steamed broccoli (100g, 7g carbs). I also had a small glass of red wine (12",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-12 00:12:00",
+    "log_type": "LogType.NOTES",
+    "message": "'Hi there, just wanted to log a quick note. I've been noticing some increased thirst lately, even though I've been sticking to my meal plan and exercise routine. I've been logging my glucose levels more frequently, and they seem to be within normal range, but I wanted to bring it up just in case. I'll keep monitoring and let you know if anything changes. Also, I have an appointment with my endocrinologist next week",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-12 17:57:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hi there, just wanted to let you know that I've been having some issues with my insulin pump lately. It seems to be delivering less insulin than usual. I've contacted the supplier for a replacement part, but in the meantime, I've been adjusting my insulin doses manually. I've also noticed that my blood sugar levels have been a bit higher than usual, so I've been increasing my basal rates to compensate. I'",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-12 23:35:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 45-minute yoga session at 10:30 PM. It was a gentle flow, so I'd rate it as low intensity. I've noticed my blood sugar levels have been a bit erratic lately, but this session seemed to help stabilize them. I'll log my pre- and post-exercise readings shortly. Goodnight!\"\n\nYour message is natural, conversational, and includes all relevant details",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-13 04:48:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 04:48 and I wanted to log a mood update. I'd rate my mood as a 9/10 today. I've got a good energy level, feeling quite motivated. However, I've been dealing with some anxiety about my blood sugar levels lately. I've been missing some scheduled loggings and I'm concerned about the impact on my diabetes management. I've been trying to stay consistent with",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-13 19:16:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hey there, it's me again. I've just weighed myself and my current weight is 72.5kg. That's a 2.5kg decrease from my last recording. I've been sticking to my meal plan and increasing my physical activity. I'm feeling good about my progress. Any thoughts or suggestions?'\n\nYour message is natural, conversational, and includes all relevant details. It shows your engagement with your health management and your",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-14 01:35:00",
+    "log_type": "LogType.OTHER",
+    "message": "'Hey there, just wanted to let you know that I've been having some trouble with my insulin pump lately. It seems to be delivering less insulin than usual. I've tried recalibrating it, but the issue persists. I'll be contacting my supplier to arrange for a replacement. In the meantime, I'll continue monitoring my blood sugar levels closely. Other than that, I've been logging my meals and activities regularly. Thanks for your support",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-14 04:46:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there, it's late but I wanted to log my dinner. I had grilled chicken breast (150g) with steamed broccoli (100g) and a small sweet potato (50g). I estimate the total carb count to be around 60g. It was a regular meal, and I'm sticking to my meal plan. How's your day going?\"\n\nThis message is appropriate for a diabetic patient",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-14 12:22:00",
+    "log_type": "LogType.NOTES",
+    "message": "\"Hi there, I've been logging my readings quite regularly these days, but I noticed something unusual today. I've been feeling more thirsty than usual, and I've had a few episodes of dizziness. I've been keeping a close eye on my glucose levels, and they seem to be within normal range, but I wanted to bring this up with you just in case. I'll continue to monitor my symptoms and log my readings",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-14 17:42:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's me again. I've been logging my moods quite regularly these days, and I'm currently feeling quite good. My mood is at an 8 today, and my energy level is medium. I've been dealing with some work stress lately, but I've been managing it by practicing deep breathing exercises and taking short walks during my breaks. I've noticed that when I'm stressed, I tend to snack more on sugary",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-14 19:08:00",
+    "log_type": "LogType.DIET",
+    "message": "\"Hi there! I had a pretty good day today, logging-wise. I've been keeping up with my logs, even though I've been a bit inconsistent with the times. For dinner, I had a grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a hard-boiled egg. I'd estimate that was around 30g of carbs. I also snacked on a handful of baby carrots",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-15 02:20:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hi there, it's 02:20 and I've just weighed myself. My weight is 73.5kg, down 0.5kg from my last entry. I've been sticking to my meal plan and exercising regularly, so I'm pleased with this progress. I'll keep you updated on any changes. Good night!'\n\nYour message is natural, conversational, and includes all relevant details. It acknowledges the",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-15 13:03:00",
+    "log_type": "LogType.NOTES",
+    "message": "\"Hi there, I've been logging my readings quite regularly these days, but I noticed something unusual this afternoon. I've been feeling more thirsty than usual, and I've had a few episodes of dizziness. I've checked my glucose levels a few times, and they've been within normal range, but I'd still like to bring this up with my doctor. I'm also planning on scheduling a follow-up appointment",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-15 20:51:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hey there, it's 20:51 and I've just weighed myself. My weight is 73.5kg, down 0.5kg from my last entry. I've been sticking to my meal plan and exercising regularly, so I'm pleased with this progress. I'll keep you updated on any changes. Let me know if you have any concerns.'\n\nThis message acknowledges the importance of regular weight tracking, provides",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-15 23:42:00",
+    "log_type": "LogType.WEIGHT",
+    "message": "'Hey there, it's late but I wanted to make sure I log my weight update. Current weight is 72.5kg, down 1kg from last week. I've been sticking to my meal plan and trying to get in more steps throughout the day. I've noticed my energy levels have been better lately, but I'm still struggling with consistent logging times. Any suggestions for managing my logging patterns while maintaining good health?'\n\nYour message is natural",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-16 20:27:00",
+    "log_type": "LogType.ACTIVITY",
+    "message": "\"Hi there, just finished a 45-minute yoga session at 19:30. It was a gentle, low-impact practice. I'd rate the intensity as moderate. I've noticed my blood sugar levels have been a bit erratic lately, but this session seemed to help stabilize them. I'll keep you updated on any changes. Thanks for your support!\"",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-16 22:07:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 22:07 and I wanted to log a mood update. My mood is currently a 6/10. I've been feeling quite low energy today, but I've managed to keep up with my insulin injections and blood sugar checks. I've had a few stressors at work that have been weighing on me, but I've been practicing deep breathing exercises to help manage my anxiety. I've",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-17 04:13:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 4:13 AM and I'm feeling a bit low today, mood-wise. I'd rate it a 5/10. Energy-wise, I'm at medium level. I've been dealing with some work stress lately, which has been affecting my sleep patterns. I've noticed that my blood sugar levels have been a bit erratic as a result. I've been trying to manage it with regular ins",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  },
+  {
+    "timestamp": "2025-07-17 04:26:00",
+    "log_type": "LogType.MOOD",
+    "message": "\"Hi there, it's 4:26 AM and I've been feeling quite restless lately. My mood is currently a 6/10, I'd say. I've noticed my energy levels have been fluctuating quite a bit, sometimes dipping low in the middle of the day. I've been dealing with some stress at work, which I know can impact my blood sugar levels. I've been trying to manage it with deep",
+    "metadata": {
+      "consistency": "inconsistent",
+      "frequency": "frequent",
+      "variety": "varied"
+    }
+  }
+]

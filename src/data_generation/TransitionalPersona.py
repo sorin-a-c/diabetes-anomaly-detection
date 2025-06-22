@@ -3,7 +3,7 @@ Defines the TransitionalPersona class for generating logs with behavioral change
 """
 
 from Persona import Persona, ConsistencyTrait, FrequencyTrait, VarietyTrait, LogType
-from datetime import datetime
+from datetime import datetime, timedelta
 import random
 
 class TransitionalPersona(Persona):
@@ -78,32 +78,9 @@ class TransitionalPersona(Persona):
         """
         consistency, frequency, variety = self.get_current_traits(current_day)
         
-        if frequency.name == "frequent":
-            return {
-                LogType.GLUCOSE: 4,
-                LogType.DIET: 2,
-                LogType.MOOD: 2,
-                LogType.ACTIVITY: 2,
-                LogType.INSULIN: 2,
-                LogType.MEDICATION: 2,
-                LogType.SLEEP: 1,
-                LogType.WEIGHT: 1,
-                LogType.NOTES: 1,
-                LogType.OTHER: 1
-            }
-        else:
-            return {
-                LogType.GLUCOSE: 10,
-                LogType.DIET: 1,
-                LogType.MOOD: 1,
-                LogType.ACTIVITY: 1,
-                LogType.INSULIN: 1,
-                LogType.MEDICATION: 1,
-                LogType.SLEEP: 1,
-                LogType.WEIGHT: 1,
-                LogType.NOTES: 1,
-                LogType.OTHER: 1
-            }
+        # Use the variety trait's log type weights, which are already configured
+        # based on whether the persona is varied or similar
+        return variety.log_type_weights
             
     def generate_log_times(self, base_date: datetime, current_day: int, num_logs: int) -> list[datetime]:
         """
@@ -111,27 +88,36 @@ class TransitionalPersona(Persona):
         
         Args:
             base_date: The base date for the day
-            current_day: The current day (0-based)
+            current_day: The current day (0-based) - used to determine which traits to use
             num_logs: Number of logs to generate
             
         Returns:
             list: List of datetime objects for log times
         """
         consistency, frequency, variety = self.get_current_traits(current_day)
+        times = []
+        
+        # Base time preferences for logging (same as parent class)
+        time_preferences = {
+            "morning": (6, 9),    # 6:00-9:00
+            "afternoon": (12, 15), # 12:00-15:00
+            "evening": (18, 21)   # 18:00-21:00
+        }
         
         if consistency.name == "consistent":
-            # Generate logs at regular intervals
-            interval = 24 * 60 // num_logs  # minutes between logs
-            return [
-                base_date.replace(hour=(i * interval) // 60, minute=(i * interval) % 60)
-                for i in range(num_logs)
-            ]
+            # Distribute logs evenly across preferred time periods
+            periods = list(time_preferences.items())
+            for i in range(num_logs):
+                period = periods[i % len(periods)]
+                start_hour, _ = period[1]
+                base_time = base_date.replace(hour=start_hour, minute=0)
+                variation = random.randint(*consistency.time_variation)
+                times.append(base_time + timedelta(minutes=variation))
         else:
-            # Generate logs at random times
-            return [
-                base_date.replace(
-                    hour=random.randint(0, 23),
-                    minute=random.randint(0, 59)
-                )
-                for _ in range(num_logs)
-            ] 
+            # Random times during waking hours
+            for _ in range(num_logs):
+                hour = random.randint(6, 22)
+                minute = random.randint(0, 59)
+                times.append(base_date.replace(hour=hour, minute=minute))
+        
+        return sorted(times) 

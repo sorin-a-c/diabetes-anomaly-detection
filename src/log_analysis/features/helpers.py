@@ -39,13 +39,13 @@ def discretize_logging_frequency(logs_per_day: float) -> str:
         str: Frequency category (very_low, low, medium, high)
     """
     if logs_per_day < 4:
-        return "very_low"
-    elif logs_per_day < 7:
         return "low"
-    elif logs_per_day < 11:
+    elif logs_per_day < 7:
         return "medium"
-    else:
+    elif logs_per_day < 11:
         return "high"
+    else:
+        return "very_high"
 
 def discretize_response_latency(latency_minutes: float) -> str:
     """
@@ -83,7 +83,7 @@ def discretize_text_similarity(similarity: float) -> str:
     elif similarity >= 0.4:
         return "similar"
     elif similarity >= 0.2:
-        return "somewhat_different"
+        return "moderately_different"
     else:
         return "different"
 
