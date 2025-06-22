@@ -47,27 +47,6 @@ def discretize_logging_frequency(logs_per_day: float) -> str:
     else:
         return "very_high"
 
-def discretize_response_latency(latency_minutes: float) -> str:
-    """
-    Discretize response latency into categories.
-    
-    Args:
-        latency_minutes: Time difference in minutes between consecutive logs
-        
-    Returns:
-        str: Latency category (very_quick, quick, moderate, slow, very_slow)
-    """
-    if latency_minutes < 5/60:  # less than 5 seconds
-        return "very_quick"
-    elif latency_minutes < 15/60:  # less than 15 seconds
-        return "quick"
-    elif latency_minutes < 1:  # less than 1 minute
-        return "moderate"
-    elif latency_minutes < 5:  # less than 5 minutes
-        return "slow"
-    else:
-        return "very_slow"
-
 def discretize_text_similarity(similarity: float) -> str:
     """
     Discretize text similarity into categories.
@@ -135,25 +114,4 @@ def calculate_text_similarity(logs: list) -> list:
         return similarities
     except:
         # Return zeros if vectorization fails (e.g., empty messages)
-        return [0] * (len(messages) - 1)
-
-def calculate_response_latency(logs: list) -> list:
-    """
-    Calculate delay between consecutive logs.
-    
-    Args:
-        logs: List of log entries
-        
-    Returns:
-        list: List of time differences in minutes between consecutive logs
-    """
-    if len(logs) < 2:
-        return []
-        
-    latencies = []
-    for i in range(len(logs) - 1):
-        current_time = datetime.fromisoformat(logs[i]['timestamp'])
-        next_time = datetime.fromisoformat(logs[i + 1]['timestamp'])
-        latency = (next_time - current_time).total_seconds() / 60  # Convert to minutes
-        latencies.append(latency)
-    return latencies 
+        return [0] * (len(messages) - 1) 

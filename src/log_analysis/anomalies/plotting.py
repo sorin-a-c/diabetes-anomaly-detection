@@ -11,6 +11,13 @@ def plot_entropy_with_anomalies(user_id, feature_type, entropy_data, anomaly_dat
     anomaly_values = [a['value'] for a in anomaly_data]
     plt.scatter([entry_indices[i] for i in anomaly_indices], anomaly_values, 
                 color='red', s=100, label='Anomalies', zorder=5)
+    # Draw vertical line for transitional personas at transition point, accounting for window size offset
+    if user_id.startswith('Transitional_'):
+        transition_day = 15
+        window_size = 10
+        transition_entry = transition_day - window_size + 1  # 6
+        if 1 <= transition_entry <= len(entry_indices):
+            plt.axvline(x=transition_entry, color='green', linestyle='--', linewidth=2, label='Transition')
     plt.title(f'Entropy per Entry for {user_id} - {feature_type}')
     plt.xlabel('Entry Number')
     plt.ylabel('Entropy')

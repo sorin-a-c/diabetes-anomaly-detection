@@ -1,6 +1,1089 @@
 {
-  "time_of_day": {},
-  "log_types": {},
-  "text_similarity": {},
-  "response_latency": {}
+  "time_of_day": {
+    "Persona_1_Consistent_Frequent_Varied": {
+      "user_id": "Persona_1_Consistent_Frequent_Varied",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 1.964760017640402
+        },
+        {
+          "index": 10,
+          "value": 1.9476452317091235
+        },
+        {
+          "index": 11,
+          "value": 1.934233792253515
+        },
+        {
+          "index": 20,
+          "value": 1.9365787354524344
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 4
+    },
+    "Persona_2_Consistent_Frequent_Similar": {
+      "user_id": "Persona_2_Consistent_Frequent_Similar",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 9,
+          "value": 1.9874601819486435
+        },
+        {
+          "index": 15,
+          "value": 1.98605357463311
+        },
+        {
+          "index": 16,
+          "value": 1.9899708353681986
+        },
+        {
+          "index": 17,
+          "value": 1.9941050707444075
+        },
+        {
+          "index": 20,
+          "value": 1.9980008838722991
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 5
+    },
+    "Persona_3_Consistent_Infrequent_Varied": {
+      "user_id": "Persona_3_Consistent_Infrequent_Varied",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 1.0
+        },
+        {
+          "index": 15,
+          "value": 0.9709505944546686
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 2
+    },
+    "Persona_4_Consistent_Infrequent_Similar": {
+      "user_id": "Persona_4_Consistent_Infrequent_Similar",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 1.8629771995391555
+        },
+        {
+          "index": 7,
+          "value": 1.850347023215099
+        },
+        {
+          "index": 8,
+          "value": 1.789929075309999
+        },
+        {
+          "index": 9,
+          "value": 1.74917466839001
+        },
+        {
+          "index": 15,
+          "value": 1.8505602963278094
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 5
+    },
+    "Persona_5_Inconsistent_Frequent_Varied": {
+      "user_id": "Persona_5_Inconsistent_Frequent_Varied",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 1.3180945160030577
+        },
+        {
+          "index": 12,
+          "value": 1.5091073240841264
+        },
+        {
+          "index": 18,
+          "value": 1.5566567074628228
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 3
+    },
+    "Persona_6_Inconsistent_Frequent_Similar": {
+      "user_id": "Persona_6_Inconsistent_Frequent_Similar",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 1.5400570471512052
+        },
+        {
+          "index": 15,
+          "value": 1.5834766425559876
+        },
+        {
+          "index": 18,
+          "value": 1.5164336144561052
+        },
+        {
+          "index": 19,
+          "value": 1.456564762130954
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 4
+    },
+    "Persona_7_Inconsistent_Infrequent_Varied": {
+      "user_id": "Persona_7_Inconsistent_Infrequent_Varied",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 1.456564762130954
+        },
+        {
+          "index": 10,
+          "value": 1.3995812306460644
+        },
+        {
+          "index": 13,
+          "value": 1.5466316153937778
+        },
+        {
+          "index": 14,
+          "value": 1.5810309627563695
+        }
+      ],
+      "total_points": 16,
+      "anomaly_count": 4
+    },
+    "Persona_8_Inconsistent_Infrequent_Similar": {
+      "user_id": "Persona_8_Inconsistent_Infrequent_Similar",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 1.582683189255492
+        },
+        {
+          "index": 11,
+          "value": 1.5020352759844962
+        },
+        {
+          "index": 16,
+          "value": 1.486565953154142
+        },
+        {
+          "index": 17,
+          "value": 1.4604846813131116
+        }
+      ],
+      "total_points": 20,
+      "anomaly_count": 4
+    },
+    "Transitional_1_AdherenceBreakdown": {
+      "user_id": "Transitional_1_AdherenceBreakdown",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 1.4157801012411537
+        },
+        {
+          "index": 10,
+          "value": 1.5251534890583303
+        },
+        {
+          "index": 13,
+          "value": 1.598327018521066
+        },
+        {
+          "index": 15,
+          "value": 1.7884504573082896
+        },
+        {
+          "index": 20,
+          "value": 1.419556298571613
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 5
+    },
+    "Transitional_2_GradualImprovement": {
+      "user_id": "Transitional_2_GradualImprovement",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 1.5722451785579223
+        },
+        {
+          "index": 8,
+          "value": 1.5617973954902356
+        },
+        {
+          "index": 9,
+          "value": 1.5525278240272846
+        },
+        {
+          "index": 11,
+          "value": 1.5295858105179467
+        },
+        {
+          "index": 12,
+          "value": 1.4732052756666731
+        },
+        {
+          "index": 13,
+          "value": 1.4480909175401173
+        },
+        {
+          "index": 14,
+          "value": 1.420181425986093
+        },
+        {
+          "index": 16,
+          "value": 1.3567782186266975
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 8
+    },
+    "Transitional_3_SelectiveAdherence": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 1.2939774027202064
+        },
+        {
+          "index": 12,
+          "value": 1.2297464127343725
+        },
+        {
+          "index": 13,
+          "value": 1.2098003386604828
+        },
+        {
+          "index": 14,
+          "value": 1.0214554656116668
+        },
+        {
+          "index": 15,
+          "value": 0.7219280948873623
+        },
+        {
+          "index": 18,
+          "value": 0.35335933502142136
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 6
+    },
+    "Transitional_4_ErraticBehavior": {
+      "user_id": "Transitional_4_ErraticBehavior",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 1.6154797815570052
+        },
+        {
+          "index": 7,
+          "value": 1.666621923793243
+        },
+        {
+          "index": 15,
+          "value": 1.7786424392329199
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 3
+    },
+    "Transitional_5_MinimalToDetailed": {
+      "user_id": "Transitional_5_MinimalToDetailed",
+      "feature_type": "time_of_day",
+      "anomalies": [
+        {
+          "index": 9,
+          "value": 1.561278124459133
+        },
+        {
+          "index": 11,
+          "value": 1.4926140680171258
+        },
+        {
+          "index": 12,
+          "value": 1.456564762130954
+        },
+        {
+          "index": 14,
+          "value": 1.4183533479345782
+        },
+        {
+          "index": 15,
+          "value": 1.3787834934861753
+        },
+        {
+          "index": 16,
+          "value": 1.316198821881321
+        },
+        {
+          "index": 20,
+          "value": 1.2250335169881905
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 7
+    }
+  },
+  "log_types": {
+    "Persona_1_Consistent_Frequent_Varied": {
+      "user_id": "Persona_1_Consistent_Frequent_Varied",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 3.1343041411651016
+        },
+        {
+          "index": 8,
+          "value": 3.1964704173968297
+        },
+        {
+          "index": 13,
+          "value": 3.237454300075407
+        },
+        {
+          "index": 14,
+          "value": 3.252413087654186
+        },
+        {
+          "index": 21,
+          "value": 3.1713837557654787
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 5
+    },
+    "Persona_2_Consistent_Frequent_Similar": {
+      "user_id": "Persona_2_Consistent_Frequent_Similar",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 2.9579443708412803
+        },
+        {
+          "index": 9,
+          "value": 2.9328045775391223
+        },
+        {
+          "index": 16,
+          "value": 2.8802987038145353
+        },
+        {
+          "index": 19,
+          "value": 2.670765424183134
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 4
+    },
+    "Persona_3_Consistent_Infrequent_Varied": {
+      "user_id": "Persona_3_Consistent_Infrequent_Varied",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 11,
+          "value": 2.8464393446710154
+        },
+        {
+          "index": 15,
+          "value": 2.4464393446710155
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 2
+    },
+    "Persona_4_Consistent_Infrequent_Similar": {
+      "user_id": "Persona_4_Consistent_Infrequent_Similar",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 2.4349054335653717
+        },
+        {
+          "index": 9,
+          "value": 2.3342094594480485
+        },
+        {
+          "index": 12,
+          "value": 2.6318326080427985
+        },
+        {
+          "index": 18,
+          "value": 2.695774998782763
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 4
+    },
+    "Persona_5_Inconsistent_Frequent_Varied": {
+      "user_id": "Persona_5_Inconsistent_Frequent_Varied",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 2.9881100724427476
+        },
+        {
+          "index": 15,
+          "value": 2.9107475743236932
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 2
+    },
+    "Persona_6_Inconsistent_Frequent_Similar": {
+      "user_id": "Persona_6_Inconsistent_Frequent_Similar",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 2.5066987328929415
+        },
+        {
+          "index": 11,
+          "value": 2.3240924804297176
+        },
+        {
+          "index": 13,
+          "value": 2.2643600549985914
+        },
+        {
+          "index": 17,
+          "value": 2.5937648647137004
+        },
+        {
+          "index": 18,
+          "value": 2.734987316321448
+        },
+        {
+          "index": 19,
+          "value": 2.813757678292811
+        },
+        {
+          "index": 20,
+          "value": 2.98936434776417
+        },
+        {
+          "index": 21,
+          "value": 3.0989295636909353
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 8
+    },
+    "Persona_7_Inconsistent_Infrequent_Varied": {
+      "user_id": "Persona_7_Inconsistent_Infrequent_Varied",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 2.4159220638351666
+        },
+        {
+          "index": 9,
+          "value": 2.2892464285091583
+        }
+      ],
+      "total_points": 16,
+      "anomaly_count": 2
+    },
+    "Persona_8_Inconsistent_Infrequent_Similar": {
+      "user_id": "Persona_8_Inconsistent_Infrequent_Similar",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 2.5147119710906907
+        },
+        {
+          "index": 7,
+          "value": 2.3715107774877753
+        },
+        {
+          "index": 10,
+          "value": 2.302683189255492
+        },
+        {
+          "index": 13,
+          "value": 2.693823039506263
+        },
+        {
+          "index": 14,
+          "value": 2.846525004558637
+        }
+      ],
+      "total_points": 20,
+      "anomaly_count": 5
+    },
+    "Transitional_1_AdherenceBreakdown": {
+      "user_id": "Transitional_1_AdherenceBreakdown",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 3.043897806905023
+        },
+        {
+          "index": 9,
+          "value": 3.019479754792127
+        },
+        {
+          "index": 15,
+          "value": 2.935698780751651
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 3
+    },
+    "Transitional_2_GradualImprovement": {
+      "user_id": "Transitional_2_GradualImprovement",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 3.0836169753972325
+        },
+        {
+          "index": 8,
+          "value": 3.147228167451278
+        },
+        {
+          "index": 14,
+          "value": 3.210316309818402
+        },
+        {
+          "index": 16,
+          "value": 3.2321574281110435
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 4
+    },
+    "Transitional_3_SelectiveAdherence": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 2.980174683969989
+        },
+        {
+          "index": 9,
+          "value": 2.9486203857991318
+        },
+        {
+          "index": 10,
+          "value": 2.786007375575705
+        },
+        {
+          "index": 12,
+          "value": 2.6600216175235287
+        },
+        {
+          "index": 13,
+          "value": 2.583465189601647
+        },
+        {
+          "index": 16,
+          "value": 2.98345859334435
+        },
+        {
+          "index": 20,
+          "value": 2.4772170014624826
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 7
+    },
+    "Transitional_4_ErraticBehavior": {
+      "user_id": "Transitional_4_ErraticBehavior",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 2.964201431025388
+        },
+        {
+          "index": 14,
+          "value": 3.1386906672419097
+        },
+        {
+          "index": 17,
+          "value": 3.066951701239727
+        },
+        {
+          "index": 18,
+          "value": 3.0445443081772865
+        },
+        {
+          "index": 20,
+          "value": 2.9961379829160393
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 5
+    },
+    "Transitional_5_MinimalToDetailed": {
+      "user_id": "Transitional_5_MinimalToDetailed",
+      "feature_type": "log_types",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 2.910992253015046
+        },
+        {
+          "index": 6,
+          "value": 3.003701696057348
+        },
+        {
+          "index": 7,
+          "value": 3.105672184271433
+        },
+        {
+          "index": 12,
+          "value": 3.2192509128388296
+        },
+        {
+          "index": 17,
+          "value": 3.03121059978423
+        },
+        {
+          "index": 18,
+          "value": 2.96789043146655
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 6
+    }
+  },
+  "text_similarity": {
+    "Persona_1_Consistent_Frequent_Varied": {
+      "user_id": "Persona_1_Consistent_Frequent_Varied",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 0.9310423601298382
+        },
+        {
+          "index": 13,
+          "value": 0.6985429667217483
+        },
+        {
+          "index": 18,
+          "value": 0.9557931671890079
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 3
+    },
+    "Persona_2_Consistent_Frequent_Similar": {
+      "user_id": "Persona_2_Consistent_Frequent_Similar",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 0.5934003486044382
+        },
+        {
+          "index": 6,
+          "value": 0.31599713297842463
+        },
+        {
+          "index": 13,
+          "value": 0.9780155566622414
+        },
+        {
+          "index": 15,
+          "value": 1.0972082062135597
+        },
+        {
+          "index": 19,
+          "value": 0.848197879327008
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 5
+    },
+    "Persona_3_Consistent_Infrequent_Varied": {
+      "user_id": "Persona_3_Consistent_Infrequent_Varied",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 10,
+          "value": 0.0
+        },
+        {
+          "index": 14,
+          "value": 0.4689955935892812
+        }
+      ],
+      "total_points": 20,
+      "anomaly_count": 2
+    },
+    "Persona_4_Consistent_Infrequent_Similar": {
+      "user_id": "Persona_4_Consistent_Infrequent_Similar",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 9,
+          "value": 0.0
+        },
+        {
+          "index": 12,
+          "value": 0.5131851787372753
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 2
+    },
+    "Persona_5_Inconsistent_Frequent_Varied": {
+      "user_id": "Persona_5_Inconsistent_Frequent_Varied",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 20,
+          "value": 1.1037297257429597
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 1
+    },
+    "Persona_6_Inconsistent_Frequent_Similar": {
+      "user_id": "Persona_6_Inconsistent_Frequent_Similar",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 0.8343470230852538
+        },
+        {
+          "index": 17,
+          "value": 0.5229784263810124
+        },
+        {
+          "index": 20,
+          "value": 0.420026001688088
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 3
+    },
+    "Persona_7_Inconsistent_Infrequent_Varied": {
+      "user_id": "Persona_7_Inconsistent_Infrequent_Varied",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 0.35335933502142136
+        }
+      ],
+      "total_points": 16,
+      "anomaly_count": 1
+    },
+    "Persona_8_Inconsistent_Infrequent_Similar": {
+      "user_id": "Persona_8_Inconsistent_Infrequent_Similar",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 1.2115696121630875
+        },
+        {
+          "index": 13,
+          "value": 0.7533347247815687
+        },
+        {
+          "index": 14,
+          "value": 0.6052912052261445
+        }
+      ],
+      "total_points": 20,
+      "anomaly_count": 3
+    },
+    "Transitional_1_AdherenceBreakdown": {
+      "user_id": "Transitional_1_AdherenceBreakdown",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 0.6667179602038777
+        },
+        {
+          "index": 9,
+          "value": 0.7836138821246287
+        },
+        {
+          "index": 15,
+          "value": 0.8503259045049341
+        },
+        {
+          "index": 16,
+          "value": 0.8710955350455423
+        },
+        {
+          "index": 17,
+          "value": 0.6219041416291193
+        },
+        {
+          "index": 18,
+          "value": 0.46816664055233254
+        },
+        {
+          "index": 19,
+          "value": 0.23519338181924143
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 7
+    },
+    "Transitional_2_GradualImprovement": {
+      "user_id": "Transitional_2_GradualImprovement",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 0.7553754125614287
+        },
+        {
+          "index": 6,
+          "value": 0.7219280948873623
+        },
+        {
+          "index": 10,
+          "value": 0.6292492238560345
+        },
+        {
+          "index": 15,
+          "value": 0.7557920434796013
+        },
+        {
+          "index": 19,
+          "value": 0.8390141432168297
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 5
+    },
+    "Transitional_3_SelectiveAdherence": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 9,
+          "value": 0.9418581068125383
+        },
+        {
+          "index": 10,
+          "value": 0.988180837004676
+        },
+        {
+          "index": 11,
+          "value": 1.1495728712492275
+        },
+        {
+          "index": 12,
+          "value": 1.2109084075058656
+        },
+        {
+          "index": 13,
+          "value": 1.384381457724494
+        },
+        {
+          "index": 15,
+          "value": 0.9055872616982603
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 6
+    },
+    "Transitional_4_ErraticBehavior": {
+      "user_id": "Transitional_4_ErraticBehavior",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 0.420026001688088
+        },
+        {
+          "index": 7,
+          "value": 0.3815804883091629
+        },
+        {
+          "index": 8,
+          "value": 0.17203694935311378
+        },
+        {
+          "index": 12,
+          "value": 0.4350218963844825
+        },
+        {
+          "index": 16,
+          "value": 0.5732074559660123
+        },
+        {
+          "index": 17,
+          "value": 0.6650007182098707
+        },
+        {
+          "index": 18,
+          "value": 0.7085966983474103
+        },
+        {
+          "index": 20,
+          "value": 0.8479063905802721
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 8
+    },
+    "Transitional_5_MinimalToDetailed": {
+      "user_id": "Transitional_5_MinimalToDetailed",
+      "feature_type": "text_similarity",
+      "anomalies": [
+        {
+          "index": 5,
+          "value": 0.3227569588973982
+        },
+        {
+          "index": 7,
+          "value": 0.2761954276479391
+        },
+        {
+          "index": 10,
+          "value": 0.8929953573519601
+        },
+        {
+          "index": 11,
+          "value": 1.0270582666007906
+        },
+        {
+          "index": 15,
+          "value": 1.1372485119165283
+        },
+        {
+          "index": 20,
+          "value": 0.8755273352678351
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 6
+    }
+  },
+  "logging_frequency": {
+    "Persona_1_Consistent_Frequent_Varied": {
+      "user_id": "Persona_1_Consistent_Frequent_Varied",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 0,
+      "anomaly_count": 0
+    },
+    "Persona_2_Consistent_Frequent_Similar": {
+      "user_id": "Persona_2_Consistent_Frequent_Similar",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 0,
+      "anomaly_count": 0
+    },
+    "Persona_3_Consistent_Infrequent_Varied": {
+      "user_id": "Persona_3_Consistent_Infrequent_Varied",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 21,
+      "anomaly_count": 0
+    },
+    "Persona_4_Consistent_Infrequent_Similar": {
+      "user_id": "Persona_4_Consistent_Infrequent_Similar",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 3,
+      "anomaly_count": 0
+    },
+    "Persona_5_Inconsistent_Frequent_Varied": {
+      "user_id": "Persona_5_Inconsistent_Frequent_Varied",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 1,
+      "anomaly_count": 0
+    },
+    "Persona_6_Inconsistent_Frequent_Similar": {
+      "user_id": "Persona_6_Inconsistent_Frequent_Similar",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 1,
+      "anomaly_count": 0
+    },
+    "Persona_7_Inconsistent_Infrequent_Varied": {
+      "user_id": "Persona_7_Inconsistent_Infrequent_Varied",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 6,
+      "anomaly_count": 0
+    },
+    "Persona_8_Inconsistent_Infrequent_Similar": {
+      "user_id": "Persona_8_Inconsistent_Infrequent_Similar",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 2,
+      "anomaly_count": 0
+    },
+    "Transitional_1_AdherenceBreakdown": {
+      "user_id": "Transitional_1_AdherenceBreakdown",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 0,
+      "anomaly_count": 0
+    },
+    "Transitional_2_GradualImprovement": {
+      "user_id": "Transitional_2_GradualImprovement",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 3,
+      "anomaly_count": 0
+    },
+    "Transitional_3_SelectiveAdherence": {
+      "user_id": "Transitional_3_SelectiveAdherence",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 0,
+      "anomaly_count": 0
+    },
+    "Transitional_4_ErraticBehavior": {
+      "user_id": "Transitional_4_ErraticBehavior",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 3,
+      "anomaly_count": 0
+    },
+    "Transitional_5_MinimalToDetailed": {
+      "user_id": "Transitional_5_MinimalToDetailed",
+      "feature_type": "logging_frequency",
+      "anomalies": [],
+      "total_points": 7,
+      "anomaly_count": 0
+    }
+  }
 }

@@ -3,6 +3,7 @@ import json
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
+import os
 
 def calculate_entropy(values):
     # ... (same as in EntropyCalc.py)
@@ -16,12 +17,22 @@ def calculate_entropy(values):
         entropy -= probability * np.log2(probability)
     return entropy
 
-def group_data_by_day(data, timestamps):
-    # ... (same as in EntropyCalc.py)
+def group_data_by_day(data, timestamps, logs=None):
+    """
+    Group data by day. If logs are provided, group all log entries by their date.
+    Returns a dict: {date: [values or logs]}
+    """
     grouped_data = defaultdict(list)
-    for value, timestamp in zip(data, timestamps):
-        date = datetime.fromisoformat(timestamp).date()
-        grouped_data[date.isoformat()].append(value)
+    if logs is not None:
+        # Group all log entries by date
+        for log in logs:
+            date = datetime.fromisoformat(log['timestamp']).date().isoformat()
+            grouped_data[date].append(log)
+    else:
+        # Group feature values by date
+        for value, timestamp in zip(data, timestamps):
+            date = datetime.fromisoformat(timestamp).date().isoformat()
+            grouped_data[date].append(value)
     return dict(grouped_data)
 
 def calculate_window_entropy(data, timestamps, window_size=10):
@@ -56,6 +67,16 @@ def analyze_user_entropy(user_id, feature_type, all_features=None):
     if feature_type not in user_data:
         raise ValueError(f"Unsupported feature type: {feature_type}")
     values = user_data[feature_type]
+    # Flatten dict of lists (per date) into a single list of values, preserving date order
+    if isinstance(values, dict):
+        all_values = []
+        for date in sorted(values.keys()):
+            v = values[date]
+            if isinstance(v, list):
+                all_values.extend(v)
+            else:
+                all_values.append(v)
+        values = all_values
     if not values:
         return {
             'user_id': user_id,
@@ -67,9 +88,17 @@ def analyze_user_entropy(user_id, feature_type, all_features=None):
             'min_entropy': 0.0
         }
     logs_dir = base_dir / 'synthetic_logs'
-    log_file = logs_dir / f'{user_id}_logs.json'
-    if not log_file.exists():
-        raise FileNotFoundError(f"Log file not found at {log_file}")
+    # Recursively search for the log file in all subdirectories
+    log_file = None
+    for root, dirs, files in os.walk(logs_dir):
+        for filename in files:
+            if filename == f'{user_id}_logs.json':
+                log_file = Path(root) / filename
+                break
+        if log_file:
+            break
+    if not log_file or not log_file.exists():
+        raise FileNotFoundError(f"Log file not found for user {user_id} in {logs_dir} or its subdirectories")
     with open(log_file, 'r') as f:
         logs = json.load(f)
     timestamps = [log['timestamp'] for log in logs]

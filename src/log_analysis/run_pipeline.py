@@ -19,7 +19,7 @@ def main():
 
     # 2. Entropy Calculation
     print("[2/4] Calculating entropy for all users and features...")
-    feature_types = ['time_of_day', 'log_types', 'text_similarity', 'response_latency']
+    feature_types = ['time_of_day', 'log_types', 'text_similarity', 'logging_frequency']
     all_entropy_results = {}
     for feature_type in feature_types:
         print(f"  Calculating entropy for {feature_type}...")
