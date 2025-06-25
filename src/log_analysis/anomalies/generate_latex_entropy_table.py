@@ -34,16 +34,23 @@ for feature in data:
     personas.update(data[feature].keys())
 personas = sorted(personas)
 
-print(r"\begin{table*}[ht]")
-print(r"\centering")
-print(r"\caption{Baseline entropy values (mean $\pm$ standard deviation) by persona and feature}")
-print(r"\begin{tabular}{lcccc}")
-print(r"\hline")
-print(r"Persona & Time of Day & Log Frequency & Log Type & Semantic Similarity \\")
-print(r"\hline")
+# Build the LaTeX table as a string
+latex_table = []
+latex_table.append(r"\begin{table*}[ht]")
+latex_table.append(r"\centering")
+latex_table.append(r"\caption{Baseline entropy values (mean $\\pm$ standard deviation) by persona and feature}")
+latex_table.append(r"\begin{tabular}{lcccc}")
+latex_table.append(r"\hline")
+latex_table.append(r"Persona & Time of Day & Log Frequency & Log Type & Semantic Similarity \\")
+latex_table.append(r"\hline")
 
 for persona in personas:
-    display_name = abbrev_map.get(persona, persona.replace("_", r"\_"))
+    if persona in abbrev_map:
+        display_name = abbrev_map[persona]
+    elif persona.startswith('Transitional_'):
+        display_name = persona.replace('Transitional_', '').replace('_', ' ')
+    else:
+        display_name = persona.replace('_', r'\\_')
     row = [display_name]
     for feature_key, _ in features:
         if persona in data.get(feature_key, {}):
@@ -56,7 +63,10 @@ for persona in personas:
                 row.append("--")
         else:
             row.append("--")
-    print(" & ".join(row) + r" \\")
-print(r"\hline")
-print(r"\end{tabular}")
-print(r"\end{table*}")
+    latex_table.append(" & ".join(row) + r" \\")
+latex_table.append(r"\hline")
+latex_table.append(r"\end{tabular}")
+latex_table.append(r"\end{table*}")
+
+# Print the LaTeX table as a single string
+print("\n".join(latex_table))

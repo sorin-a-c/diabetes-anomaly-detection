@@ -8,6 +8,7 @@ from .helpers import (
     calculate_logging_frequency,
     calculate_text_similarity
 )
+from datetime import datetime, timedelta
 
 def extract_user_features():
     """
@@ -61,12 +62,24 @@ def extract_user_features():
                 
                 # Calculate logging frequency
                 logging_frequency = calculate_logging_frequency(logs)
+                # Find full date range
+                if logs:
+                    all_dates = [datetime.fromisoformat(log['timestamp']).date() for log in logs]
+                    min_date = min(all_dates)
+                    max_date = max(all_dates)
+                    date_range = [(min_date + timedelta(days=i)).isoformat() for i in range((max_date - min_date).days + 1)]
+                else:
+                    date_range = []
+                # Discretize and fill zeros
+                discretized_frequency = {}
+                for date in date_range:
+                    if date in logging_frequency:
+                        label = discretize_logging_frequency(logging_frequency[date])
+                        discretized_frequency[date] = [label]
+                    else:
+                        discretized_frequency[date] = ['low']
                 
                 # Discretize numerical features
-                discretized_frequency = {
-                    date: discretize_logging_frequency(count)
-                    for date, count in logging_frequency.items()
-                }
                 discretized_similarities = aggregate_by_date([
                     {"date": entry["date"], "value": discretize_text_similarity(entry["value"])}
                     for entry in text_similarities

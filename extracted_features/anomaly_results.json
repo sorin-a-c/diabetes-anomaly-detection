@@ -997,16 +997,26 @@
     "Persona_1_Consistent_Frequent_Varied": {
       "user_id": "Persona_1_Consistent_Frequent_Varied",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 0,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 12,
+          "value": 0.9709505944546686
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 1
     },
     "Persona_2_Consistent_Frequent_Similar": {
       "user_id": "Persona_2_Consistent_Frequent_Similar",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 0,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 12,
+          "value": 0.8812908992306927
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 1
     },
     "Persona_3_Consistent_Infrequent_Varied": {
       "user_id": "Persona_3_Consistent_Infrequent_Varied",
@@ -1019,71 +1029,207 @@
       "user_id": "Persona_4_Consistent_Infrequent_Similar",
       "feature_type": "logging_frequency",
       "anomalies": [],
-      "total_points": 3,
+      "total_points": 21,
       "anomaly_count": 0
     },
     "Persona_5_Inconsistent_Frequent_Varied": {
       "user_id": "Persona_5_Inconsistent_Frequent_Varied",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 1,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 0.9709505944546686
+        },
+        {
+          "index": 13,
+          "value": 0.9709505944546686
+        },
+        {
+          "index": 17,
+          "value": 0.9709505944546686
+        },
+        {
+          "index": 19,
+          "value": 0.9709505944546686
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 4
     },
     "Persona_6_Inconsistent_Frequent_Similar": {
       "user_id": "Persona_6_Inconsistent_Frequent_Similar",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 1,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 10,
+          "value": 0.8812908992306927
+        },
+        {
+          "index": 11,
+          "value": 0.7219280948873623
+        },
+        {
+          "index": 13,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 17,
+          "value": 0.8812908992306927
+        }
+      ],
+      "total_points": 22,
+      "anomaly_count": 4
     },
     "Persona_7_Inconsistent_Infrequent_Varied": {
       "user_id": "Persona_7_Inconsistent_Infrequent_Varied",
       "feature_type": "logging_frequency",
       "anomalies": [],
-      "total_points": 6,
+      "total_points": 22,
       "anomaly_count": 0
     },
     "Persona_8_Inconsistent_Infrequent_Similar": {
       "user_id": "Persona_8_Inconsistent_Infrequent_Similar",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 2,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 0.4689955935892812
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 1
     },
     "Transitional_1_AdherenceBreakdown": {
       "user_id": "Transitional_1_AdherenceBreakdown",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 0,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 1.3609640474436813
+        },
+        {
+          "index": 7,
+          "value": 1.5219280948873621
+        },
+        {
+          "index": 12,
+          "value": 1.1567796494470395
+        },
+        {
+          "index": 13,
+          "value": 0.9219280948873623
+        },
+        {
+          "index": 14,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 15,
+          "value": 0.0
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 6
     },
     "Transitional_2_GradualImprovement": {
       "user_id": "Transitional_2_GradualImprovement",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 3,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 0.7219280948873623
+        },
+        {
+          "index": 8,
+          "value": 0.8812908992306927
+        },
+        {
+          "index": 13,
+          "value": 0.7219280948873623
+        },
+        {
+          "index": 14,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 15,
+          "value": 0.0
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 5
     },
     "Transitional_3_SelectiveAdherence": {
       "user_id": "Transitional_3_SelectiveAdherence",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 0,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 6,
+          "value": 1.1567796494470395
+        },
+        {
+          "index": 7,
+          "value": 1.3709505944546687
+        },
+        {
+          "index": 12,
+          "value": 1.1567796494470395
+        },
+        {
+          "index": 13,
+          "value": 0.9219280948873623
+        },
+        {
+          "index": 14,
+          "value": 0.4689955935892812
+        },
+        {
+          "index": 15,
+          "value": 0.0
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 6
     },
     "Transitional_4_ErraticBehavior": {
       "user_id": "Transitional_4_ErraticBehavior",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 3,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 7,
+          "value": 0.7219280948873623
+        },
+        {
+          "index": 8,
+          "value": 1.1567796494470395
+        },
+        {
+          "index": 15,
+          "value": 0.9709505944546686
+        },
+        {
+          "index": 16,
+          "value": 0.8812908992306927
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 4
     },
     "Transitional_5_MinimalToDetailed": {
       "user_id": "Transitional_5_MinimalToDetailed",
       "feature_type": "logging_frequency",
-      "anomalies": [],
-      "total_points": 7,
-      "anomaly_count": 0
+      "anomalies": [
+        {
+          "index": 8,
+          "value": 0.7219280948873623
+        },
+        {
+          "index": 19,
+          "value": 0.9709505944546686
+        }
+      ],
+      "total_points": 21,
+      "anomaly_count": 2
     }
   }
 }

@@ -70,12 +70,15 @@ def analyze_user_entropy(user_id, feature_type, all_features=None):
     # Flatten dict of lists (per date) into a single list of values, preserving date order
     if isinstance(values, dict):
         all_values = []
+        all_dates = []
         for date in sorted(values.keys()):
             v = values[date]
             if isinstance(v, list):
                 all_values.extend(v)
+                all_dates.extend([date] * len(v))
             else:
                 all_values.append(v)
+                all_dates.append(date)
         values = all_values
     if not values:
         return {
@@ -101,7 +104,11 @@ def analyze_user_entropy(user_id, feature_type, all_features=None):
         raise FileNotFoundError(f"Log file not found for user {user_id} in {logs_dir} or its subdirectories")
     with open(log_file, 'r') as f:
         logs = json.load(f)
-    timestamps = [log['timestamp'] for log in logs]
+    # Special handling for logging_frequency: use dates as timestamps
+    if feature_type == 'logging_frequency' and isinstance(user_data[feature_type], dict):
+        timestamps = all_dates
+    else:
+        timestamps = [log['timestamp'] for log in logs]
     entropies = calculate_window_entropy(values, timestamps, window_size=10)
     results = {
         'user_id': user_id,
